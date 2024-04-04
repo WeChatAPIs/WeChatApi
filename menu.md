@@ -1,175 +1,182 @@
 
 **个人信息**
--  ✅[获取个人信息](doc%2F%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%2F%E8%8E%B7%E5%8F%96%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF.md)
--  ✅[修改地区](doc%2F%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%2F%E4%BF%AE%E6%94%B9%E5%9C%B0%E5%8C%BA.md)
--  ✅[修改性别](doc%2F%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%2F%E4%BF%AE%E6%94%B9%E6%80%A7%E5%88%AB.md)
--  ✅[修改昵称](doc%2F%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%2F%E4%BF%AE%E6%94%B9%E6%98%B5%E7%A7%B0.md)
--  ✅[修改签名](doc%2F%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%2F%E4%BF%AE%E6%94%B9%E7%AD%BE%E5%90%8D.md)
--  ✅[获取名片二维码](doc%2F%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%2F%E8%8E%B7%E5%8F%96%E5%90%8D%E7%89%87%E4%BA%8C%E7%BB%B4%E7%A0%81.md)
--  ✅[获取收款码](doc%2F%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%2F%E8%8E%B7%E5%8F%96%E6%94%B6%E6%AC%BE%E7%A0%81.md)
--  ✅[获取长效收款码](doc%2F%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%2F%E8%8E%B7%E5%8F%96%E9%95%BF%E6%95%88%E6%94%B6%E6%AC%BE%E7%A0%81.md)
--  ✅[设置头像](doc%2F%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%2F%E8%AE%BE%E7%BD%AE%E5%A4%B4%E5%83%8F.md)
--  ✅[设置拍一拍](doc%2F%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF%2F%E8%AE%BE%E7%BD%AE%E6%8B%8D%E4%B8%80%E6%8B%8D.md)
+-  ✅[获取个人信息](doc%2F%B8%F6%C8%CB%D0%C5%CF%A2%2F%BB%F1%C8%A1%B8%F6%C8%CB%D0%C5%CF%A2.md)
+-  ✅[获取名片二维码](doc%2F%B8%F6%C8%CB%D0%C5%CF%A2%2F%BB%F1%C8%A1%C3%FB%C6%AC%B6%FE%CE%AC%C2%EB.md)
+-  ✅[设置头像](doc%2F%B8%F6%C8%CB%D0%C5%CF%A2%2F%C9%E8%D6%C3%CD%B7%CF%F1.md)
+-  ✅[设置拍一拍](doc%2F%B8%F6%C8%CB%D0%C5%CF%A2%2F%C9%E8%D6%C3%C5%C4%D2%BB%C5%C4.md)
+-  ✅[修改签名](doc%2F%B8%F6%C8%CB%D0%C5%CF%A2%2F%D0%DE%B8%C4%C7%A9%C3%FB.md)
+-  ✅[修改昵称](doc%2F%B8%F6%C8%CB%D0%C5%CF%A2%2F%D0%DE%B8%C4%EA%C7%B3%C6.md)
+-  ✅[修改性别](doc%2F%B8%F6%C8%CB%D0%C5%CF%A2%2F%D0%DE%B8%C4%D0%D4%B1%F0.md)
+-  ✅[修改地区](doc%2F%B8%F6%C8%CB%D0%C5%CF%A2%2F%D0%DE%B8%C4%B5%D8%C7%F8.md)
+-  ✅[获取收款码](doc%2F%B8%F6%C8%CB%D0%C5%CF%A2%2F%BB%F1%C8%A1%CA%D5%BF%EE%C2%EB.md)
+-  ✅[保存收款码](doc%2F%B8%F6%C8%CB%D0%C5%CF%A2%2F%B1%A3%B4%E6%CA%D5%BF%EE%C2%EB.md)
 
-**发送消息**
--  ✅[发送文本信息](doc%2F%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF%2F%E5%8F%91%E9%80%81%E6%96%87%E6%9C%AC%E4%BF%A1%E6%81%AF.md)
--  ✅[发送语音信息](doc%2F%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF%2F%E5%8F%91%E9%80%81%E8%AF%AD%E9%9F%B3%E4%BF%A1%E6%81%AF.md)
--  ✅[拍一拍](doc%2F%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF%2F%E6%8B%8D%E4%B8%80%E6%8B%8D.md)
--  ✅[撤回消息](doc%2F%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF%2F%E6%92%A4%E5%9B%9E%E6%B6%88%E6%81%AF.md)
--  ✅[转发语音](doc%2F%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF%2F%E8%BD%AC%E5%8F%91%E8%AF%AD%E9%9F%B3.md)
--  ✅[发送表情（不需要原文件）](doc%2F%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF%2F%E5%8F%91%E9%80%81%E8%A1%A8%E6%83%85%EF%BC%88%E4%B8%8D%E9%9C%80%E8%A6%81%E5%8E%9F%E6%96%87%E4%BB%B6%EF%BC%89.md)
--  ✅[发送表情信息](doc%2F%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF%2F%E5%8F%91%E9%80%81%E8%A1%A8%E6%83%85%E4%BF%A1%E6%81%AF.md)
--  ✅[发送文件信息](doc%2F%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF%2F%E5%8F%91%E9%80%81%E6%96%87%E4%BB%B6%E4%BF%A1%E6%81%AF.md)
--  ✅[发送引用消息](doc%2F%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF%2F%E5%8F%91%E9%80%81%E5%BC%95%E7%94%A8%E6%B6%88%E6%81%AF.md)
--  ✅[发送图片信息](doc%2F%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF%2F%E5%8F%91%E9%80%81%E5%9B%BE%E7%89%87%E4%BF%A1%E6%81%AF.md)
--  ✅[发送名片信息](doc%2F%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF%2F%E5%8F%91%E9%80%81%E5%90%8D%E7%89%87%E4%BF%A1%E6%81%AF.md)
--  ✅[发送位置信息](doc%2F%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF%2F%E5%8F%91%E9%80%81%E4%BD%8D%E7%BD%AE%E4%BF%A1%E6%81%AF.md)
--  ✅[发送XML信息](doc%2F%E5%8F%91%E9%80%81%E6%B6%88%E6%81%AF%2F%E5%8F%91%E9%80%81XML%E4%BF%A1%E6%81%AF.md)
-
-**消息处理**
--  ✅[http处理器](doc%2F%E5%A4%84%E7%90%86%E6%B6%88%E6%81%AF%2Fhttp%E5%A4%84%E7%90%86%E5%99%A8.md)
--  ✅[消息类型](doc%2F%E5%A4%84%E7%90%86%E6%B6%88%E6%81%AF%2F%E6%B6%88%E6%81%AF%E7%B1%BB%E5%9E%8B.md)
-
-**通讯录管理**
--  ✅[获取通讯录](doc%2F%E9%80%9A%E8%AE%AF%E5%BD%95%2F%E8%8E%B7%E5%8F%96%E9%80%9A%E8%AE%AF%E5%BD%95.md)
--  ✅[获取用户信息](doc%2F%E9%80%9A%E8%AE%AF%E5%BD%95%2F%E8%8E%B7%E5%8F%96%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF.md)
--  ✅[保存-取消保存群聊到通讯录](doc%2F%E9%80%9A%E8%AE%AF%E5%BD%95%2F%E4%BF%9D%E5%AD%98-%E5%8F%96%E6%B6%88%E4%BF%9D%E5%AD%98%E7%BE%A4%E8%81%8A%E5%88%B0%E9%80%9A%E8%AE%AF%E5%BD%95.md)
--  ✅[关注公众号](doc%2F%E9%80%9A%E8%AE%AF%E5%BD%95%2F%E5%85%B3%E6%B3%A8%E5%85%AC%E4%BC%97%E5%8F%B7.md)
--  ✅[删除联系人](doc%2F%E9%80%9A%E8%AE%AF%E5%BD%95%2F%E5%88%A0%E9%99%A4%E8%81%94%E7%B3%BB%E4%BA%BA.md)
--  ✅[取关公众号](doc%2F%E9%80%9A%E8%AE%AF%E5%BD%95%2F%E5%8F%96%E5%85%B3%E5%85%AC%E4%BC%97%E5%8F%B7.md)
--  ✅[批量获取用户信息](doc%2F%E9%80%9A%E8%AE%AF%E5%BD%95%2F%E6%89%B9%E9%87%8F%E8%8E%B7%E5%8F%96%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF.md)
--  ✅[搜索用户](doc%2F%E9%80%9A%E8%AE%AF%E5%BD%95%2F%E6%90%9C%E7%B4%A2%E7%94%A8%E6%88%B7.md)
--  ✅[检测僵尸粉](doc%2F%E9%80%9A%E8%AE%AF%E5%BD%95%2F%E6%A3%80%E6%B5%8B%E5%83%B5%E5%B0%B8%E7%B2%89.md)
--  ✅[添加好友](doc%2F%E9%80%9A%E8%AE%AF%E5%BD%95%2F%E6%B7%BB%E5%8A%A0%E5%A5%BD%E5%8F%8B.md)
--  ✅[添加好友（wxid）](doc%2F%E9%80%9A%E8%AE%AF%E5%BD%95%2F%E6%B7%BB%E5%8A%A0%E5%A5%BD%E5%8F%8B%EF%BC%88wxid%EF%BC%89.md)
--  ✅[置顶-取消置顶联系人](doc%2F%E9%80%9A%E8%AE%AF%E5%BD%95%2F%E7%BD%AE%E9%A1%B6-%E5%8F%96%E6%B6%88%E7%BD%AE%E9%A1%B6%E8%81%94%E7%B3%BB%E4%BA%BA.md)
--  ✅[设置备注](doc%2F%E9%80%9A%E8%AE%AF%E5%BD%95%2F%E8%AE%BE%E7%BD%AE%E5%A4%87%E6%B3%A8.md)
--  ✅[设置用户权限](doc%2F%E9%80%9A%E8%AE%AF%E5%BD%95%2F%E8%AE%BE%E7%BD%AE%E7%94%A8%E6%88%B7%E6%9D%83%E9%99%90.md)
--  ✅[通过好友申请](doc%2F%E9%80%9A%E8%AE%AF%E5%BD%95%2F%E9%80%9A%E8%BF%87%E5%A5%BD%E5%8F%8B%E7%94%B3%E8%AF%B7.md)
-
-**群管理**
--  ✅[删除群成员](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E5%88%A0%E9%99%A4%E7%BE%A4%E6%88%90%E5%91%98.md)
--  ✅[创建群聊](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E5%88%9B%E5%BB%BA%E7%BE%A4%E8%81%8A.md)
--  ✅[修改群聊名称](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E4%BF%AE%E6%94%B9%E7%BE%A4%E8%81%8A%E5%90%8D%E7%A7%B0.md)
--  ✅[修改群内个人昵称](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E4%BF%AE%E6%94%B9%E7%BE%A4%E5%86%85%E4%B8%AA%E4%BA%BA%E6%98%B5%E7%A7%B0.md)
--  ✅[开启-关闭仅管理员修改群名](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E5%BC%80%E5%90%AF-%E5%85%B3%E9%97%AD%E4%BB%85%E7%AE%A1%E7%90%86%E5%91%98%E4%BF%AE%E6%94%B9%E7%BE%A4%E5%90%8D.md)
--  ✅[开启-关闭群聊免打扰](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E5%BC%80%E5%90%AF-%E5%85%B3%E9%97%AD%E7%BE%A4%E8%81%8A%E5%85%8D%E6%89%93%E6%89%B0.md)
--  ✅[开启-关闭群聊邀请确认](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E5%BC%80%E5%90%AF-%E5%85%B3%E9%97%AD%E7%BE%A4%E8%81%8A%E9%82%80%E8%AF%B7%E7%A1%AE%E8%AE%A4.md)
--  ✅[显示-隐藏群成员昵称](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E6%98%BE%E7%A4%BA-%E9%9A%90%E8%97%8F%E7%BE%A4%E6%88%90%E5%91%98%E6%98%B5%E7%A7%B0.md)
--  ✅[添加管理员](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E6%B7%BB%E5%8A%A0%E7%AE%A1%E7%90%86%E5%91%98.md)
--  ✅[添加群成员](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E6%B7%BB%E5%8A%A0%E7%BE%A4%E6%88%90%E5%91%98.md)
--  ✅[移除管理员](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E7%A7%BB%E9%99%A4%E7%AE%A1%E7%90%86%E5%91%98.md)
--  ✅[群聊邀请验证](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E7%BE%A4%E8%81%8A%E9%82%80%E8%AF%B7%E9%AA%8C%E8%AF%81.md)
--  ✅[获取群成员详细信息](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E8%8E%B7%E5%8F%96%E7%BE%A4%E6%88%90%E5%91%98%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF.md)
--  ✅[获取群聊二维码](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E8%8E%B7%E5%8F%96%E7%BE%A4%E8%81%8A%E4%BA%8C%E7%BB%B4%E7%A0%81.md)
--  ✅[获取群聊详细信息](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E8%8E%B7%E5%8F%96%E7%BE%A4%E8%81%8A%E8%AF%A6%E7%BB%86%E4%BF%A1%E6%81%AF.md)
--  ✅[解散群聊](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E8%A7%A3%E6%95%A3%E7%BE%A4%E8%81%8A.md)
--  ✅[设置群公告](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E8%AE%BE%E7%BD%AE%E7%BE%A4%E5%85%AC%E5%91%8A.md)
--  ✅[转让群聊](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E8%BD%AC%E8%AE%A9%E7%BE%A4%E8%81%8A.md)
--  ✅[退出群聊](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E9%80%80%E5%87%BA%E7%BE%A4%E8%81%8A.md)
--  ✅[邀请加入群聊](doc%2F%E7%BE%A4%E7%AE%A1%E7%90%86%2F%E9%82%80%E8%AF%B7%E5%8A%A0%E5%85%A5%E7%BE%A4%E8%81%8A.md)
-
-**朋友圈**
--  ✅[获取朋友圈信息](doc%2F%E6%9C%8B%E5%8F%8B%E5%9C%88%2F%E8%8E%B7%E5%8F%96%E6%9C%8B%E5%8F%8B%E5%9C%88%E4%BF%A1%E6%81%AF.md)
--  ✅[发布朋友圈](doc%2F%E6%9C%8B%E5%8F%8B%E5%9C%88%2F%E5%8F%91%E5%B8%83%E6%9C%8B%E5%8F%8B%E5%9C%88.md)
--  ✅[上传朋友圈图片](doc%2F%E6%9C%8B%E5%8F%8B%E5%9C%88%2F%E4%B8%8A%E4%BC%A0%E6%9C%8B%E5%8F%8B%E5%9C%88%E5%9B%BE%E7%89%87.md)
--  ✅[删除朋友圈](doc%2F%E6%9C%8B%E5%8F%8B%E5%9C%88%2F%E5%88%A0%E9%99%A4%E6%9C%8B%E5%8F%8B%E5%9C%88.md)
--  ✅[删除朋友圈评论](doc%2F%E6%9C%8B%E5%8F%8B%E5%9C%88%2F%E5%88%A0%E9%99%A4%E6%9C%8B%E5%8F%8B%E5%9C%88%E8%AF%84%E8%AE%BA.md)
--  ✅[取消点赞朋友圈](doc%2F%E6%9C%8B%E5%8F%8B%E5%9C%88%2F%E5%8F%96%E6%B6%88%E7%82%B9%E8%B5%9E%E6%9C%8B%E5%8F%8B%E5%9C%88.md)
--  ✅[回复朋友圈评论](doc%2F%E6%9C%8B%E5%8F%8B%E5%9C%88%2F%E5%9B%9E%E5%A4%8D%E6%9C%8B%E5%8F%8B%E5%9C%88%E8%AF%84%E8%AE%BA.md)
--  ✅[点赞朋友圈](doc%2F%E6%9C%8B%E5%8F%8B%E5%9C%88%2F%E7%82%B9%E8%B5%9E%E6%9C%8B%E5%8F%8B%E5%9C%88.md)
--  ✅[获取企业用户朋友圈信息](doc%2F%E6%9C%8B%E5%8F%8B%E5%9C%88%2F%E8%8E%B7%E5%8F%96%E4%BC%81%E4%B8%9A%E7%94%A8%E6%88%B7%E6%9C%8B%E5%8F%8B%E5%9C%88%E4%BF%A1%E6%81%AF.md)
--  ✅[获取用户朋友圈信息](doc%2F%E6%9C%8B%E5%8F%8B%E5%9C%88%2F%E8%8E%B7%E5%8F%96%E7%94%A8%E6%88%B7%E6%9C%8B%E5%8F%8B%E5%9C%88%E4%BF%A1%E6%81%AF.md)
--  ✅[评论朋友圈](doc%2F%E6%9C%8B%E5%8F%8B%E5%9C%88%2F%E8%AF%84%E8%AE%BA%E6%9C%8B%E5%8F%8B%E5%9C%88.md)
-
-**视频号相关**
--  ✅[获取作品列表]
--  ✅[视频号作品解密]
--  ✅[搜索视频号]
--  ✅[获取推荐内容]
--  ✅[获取作品弹幕]
--  ✅[获取作品评论列表]
--  ✅[获取作品评论详情]
--  ✅[获取我的关注列表]
--  ✅[获取我的点赞列表]
--  ✅[获取我的推荐列表]
--  ✅[获取我的观看历史]
--  ✅[关注/取关视频号]
--  ✅[点赞/取消点赞内容]
--  ✅[推荐/取消推荐作品]
--  ✅[获取作品推荐流]
--  ✅[发布/回复评论]
--  ✅[删除评论]
-
-**直播间**
--  ✅[获取直播用户信息]
--  ✅[获取直播间信息]
--  ✅[点赞直播间]
--  ✅[获取直播间消息]
--  ✅[发送直播间消息]
--  ✅[获取直播间商品列表]
--  ✅[进入直播间]
-
-**公众号相关**
--  ✅[获取历史推送消息]
--  ✅[搜一搜]
--  ✅[获取A8Key]
--  ✅[获取H5Key]
--  ✅[获取视频作品列表]
-
-**表情包相关**
--  ✅[获取表情包列表]
--  ✅[获取表情包详细信息]
--  ✅[获取表情包简要信息]
-
-**数据库相关**
--  ✅[获取数据库信息]
--  ✅[查询数据库]
--  ✅[备份数据库]
-
-**小程序相关**
--  ✅[获取小程序code]
--  ✅[小程序授权]
--  ✅[操作云函数]
--  ✅[刷新小程序会话]
--  ✅[获取小程序使用记录]
--  ✅[更新小程序使用记录]
--  ✅[获取小程序信息]
--  ✅[批量获取小程序信息]
--  ✅[获取小程序包下载地址]
-
-**位置相关**
--  ✅[获取位置信息]
--  ✅[获取地理位置列表]
--  ✅[搜索地理位置]
--  ✅[获取位置图片]
-
-**其他功能**
--  ✅[OCR识别]
--  ✅[语音转文本]
--  ✅[获取备份库密钥]
--  ✅[锁定微信]
-
-**登录相关**
--  ✅[获取登录二维码]
-
-**CDN**
--  ✅[CDN上传]
--  ✅[CDN下载]
-
-**社交**
--  ✅[获取附近的人]
--  ✅[摇一摇(上报信息)]
--  ✅[摇一摇(获取结果)]
-
-**转账相关**
--  ✅[获取详细信息]
--  ✅[确认收款]
--  ✅[退还转账]
 
 **标签管理**
--  ✅[获取标签列表]
--  ✅[添加标签]
--  ✅[删除标签]
--  ✅[修改标签名称]
--  ✅[修改用户标签]
+-  ✅[修改标签名称](doc%2F%B1%EA%C7%A9%B9%DC%C0%ED%2F%D0%DE%B8%C4%B1%EA%C7%A9%C3%FB%B3%C6.md)
+-  ✅[修改用户标签](doc%2F%B1%EA%C7%A9%B9%DC%C0%ED%2F%D0%DE%B8%C4%D3%C3%BB%A7%B1%EA%C7%A9.md)
+-  ✅[删除标签](doc%2F%B1%EA%C7%A9%B9%DC%C0%ED%2F%C9%BE%B3%FD%B1%EA%C7%A9.md)
+-  ✅[添加标签](doc%2F%B1%EA%C7%A9%B9%DC%C0%ED%2F%CC%ED%BC%D3%B1%EA%C7%A9.md)
+-  ✅[获取标签列表](doc%2F%B1%EA%C7%A9%B9%DC%C0%ED%2F%BB%F1%C8%A1%B1%EA%C7%A9%C1%D0%B1%ED.md)
+
+
+**发送消息**
+-  ✅[发送XML](doc%2F%B7%A2%CB%CD%CF%FB%CF%A2%2F%B7%A2%CB%CDXML.md)
+-  ✅[发送位置](doc%2F%B7%A2%CB%CD%CF%FB%CF%A2%2F%B7%A2%CB%CD%CE%BB%D6%C3.md)
+-  ✅[发送名片](doc%2F%B7%A2%CB%CD%CF%FB%CF%A2%2F%B7%A2%CB%CD%C3%FB%C6%AC.md)
+-  ✅[发送图片](doc%2F%B7%A2%CB%CD%CF%FB%CF%A2%2F%B7%A2%CB%CD%CD%BC%C6%AC.md)
+-  ✅[发送引用消息](doc%2F%B7%A2%CB%CD%CF%FB%CF%A2%2F%B7%A2%CB%CD%D2%FD%D3%C3%CF%FB%CF%A2.md)
+-  ✅[发送文件](doc%2F%B7%A2%CB%CD%CF%FB%CF%A2%2F%B7%A2%CB%CD%CE%C4%BC%FE.md)
+-  ✅[发送文本](doc%2F%B7%A2%CB%CD%CF%FB%CF%A2%2F%B7%A2%CB%CD%CE%C4%B1%BE.md)
+-  ✅[发送表情](doc%2F%B7%A2%CB%CD%CF%FB%CF%A2%2F%B7%A2%CB%CD%B1%ED%C7%E9.md)
+-  ✅[发送表情](doc%2F%B7%A2%CB%CD%CF%FB%CF%A2%2F%B7%A2%CB%CD%B1%ED%C7%E9%A3%A8%CE%DE%D4%B4%A3%A9.md)
+-  ✅[发送语音](doc%2F%B7%A2%CB%CD%CF%FB%CF%A2%2F%B7%A2%CB%CD%D3%EF%D2%F4.md)
+-  ✅[拍一拍](doc%2F%B7%A2%CB%CD%CF%FB%CF%A2%2F%C5%C4%D2%BB%C5%C4.md)
+-  ✅[撤回消息](doc%2F%B7%A2%CB%CD%CF%FB%CF%A2%2F%B3%B7%BB%D8%CF%FB%CF%A2.md)
+-  ✅[转发语音](doc%2F%B7%A2%CB%CD%CF%FB%CF%A2%2F%D7%AA%B7%A2%D3%EF%D2%F4.md)
+ 
+**消息处理**
+-  ✅[消息类型](doc%2F%B4%A6%C0%ED%CF%FB%CF%A2%2F%CF%FB%CF%A2%C0%E0%D0%CD.md)
+-  ✅[http处理器](doc%2F%B4%A6%C0%ED%CF%FB%CF%A2%2Fhttp%B4%A6%C0%ED%C6%F7.md)
+
+**通讯录管理**
+-  ✅[获取通讯录](doc%2F%CD%A8%D1%B6%C2%BC%2F%BB%F1%C8%A1%CD%A8%D1%B6%C2%BC.md)
+-  ✅[获取用户信息](doc%2F%CD%A8%D1%B6%C2%BC%2F%BB%F1%C8%A1%D3%C3%BB%A7%D0%C5%CF%A2.md)
+-  ✅[批量获取用户信息](doc%2F%CD%A8%D1%B6%C2%BC%2F%C5%FA%C1%BF%BB%F1%C8%A1%D3%C3%BB%A7%D0%C5%CF%A2.md)
+-  ✅[保存-取消保存群聊到通讯录](doc%2F%CD%A8%D1%B6%C2%BC%2F%B1%A3%B4%E6-%C8%A1%CF%FB%B1%A3%B4%E6%C8%BA%C1%C4%B5%BD%CD%A8%D1%B6%C2%BC.md)
+-  ✅[关注公众号](doc%2F%CD%A8%D1%B6%C2%BC%2F%B9%D8%D7%A2%B9%AB%D6%DA%BA%C5.md)
+-  ✅[删除联系人](doc%2F%CD%A8%D1%B6%C2%BC%2F%C9%BE%B3%FD%C1%AA%CF%B5%C8%CB.md)
+-  ✅[取关公众号](doc%2F%CD%A8%D1%B6%C2%BC%2F%C8%A1%B9%D8%B9%AB%D6%DA%BA%C5.md)
+-  ✅[搜索用户](doc%2F%CD%A8%D1%B6%C2%BC%2F%CB%D1%CB%F7%D3%C3%BB%A7.md)
+-  ✅[检测僵尸粉](doc%2F%CD%A8%D1%B6%C2%BC%2F%BC%EC%B2%E2%BD%A9%CA%AC%B7%DB.md)
+-  ✅[添加好友](doc%2F%CD%A8%D1%B6%C2%BC%2F%CC%ED%BC%D3%BA%C3%D3%D1.md)
+-  ✅[添加好友（wxid）](doc%2F%CD%A8%D1%B6%C2%BC%2F%CC%ED%BC%D3%BA%C3%D3%D1%A3%A8wxid%A3%A9.md)
+-  ✅[置顶-取消置顶联系人](doc%2F%CD%A8%D1%B6%C2%BC%2F%D6%C3%B6%A5-%C8%A1%CF%FB%D6%C3%B6%A5%C1%AA%CF%B5%C8%CB.md)
+-  ✅[设置备注](doc%2F%CD%A8%D1%B6%C2%BC%2F%C9%E8%D6%C3%B1%B8%D7%A2.md)
+-  ✅[设置用户权限](doc%2F%CD%A8%D1%B6%C2%BC%2F%C9%E8%D6%C3%D3%C3%BB%A7%C8%A8%CF%DE.md)
+-  ✅[通过好友申请](doc%2F%CD%A8%D1%B6%C2%BC%2F%CD%A8%B9%FD%BA%C3%D3%D1%C9%EA%C7%EB.md)
+
+
+**群管理**
+-  ✅[修改群内个人昵称](doc%2F%C8%BA%B9%DC%C0%ED%2F%D0%DE%B8%C4%C8%BA%C4%DA%B8%F6%C8%CB%EA%C7%B3%C6.md)
+-  ✅[修改群聊名称](doc%2F%C8%BA%B9%DC%C0%ED%2F%D0%DE%B8%C4%C8%BA%C1%C4%C3%FB%B3%C6.md)
+-  ✅[创建群聊](doc%2F%C8%BA%B9%DC%C0%ED%2F%B4%B4%BD%A8%C8%BA%C1%C4.md)
+-  ✅[删除群成员](doc%2F%C8%BA%B9%DC%C0%ED%2F%C9%BE%B3%FD%C8%BA%B3%C9%D4%B1.md)
+-  ✅[开启-关闭仅管理员修改群名](doc%2F%C8%BA%B9%DC%C0%ED%2F%BF%AA%C6%F4-%B9%D8%B1%D5%BD%F6%B9%DC%C0%ED%D4%B1%D0%DE%B8%C4%C8%BA%C3%FB.md)
+-  ✅[开启-关闭群聊免打扰](doc%2F%C8%BA%B9%DC%C0%ED%2F%BF%AA%C6%F4-%B9%D8%B1%D5%C8%BA%C1%C4%C3%E2%B4%F2%C8%C5.md)
+-  ✅[开启-关闭群聊邀请确认](doc%2F%C8%BA%B9%DC%C0%ED%2F%BF%AA%C6%F4-%B9%D8%B1%D5%C8%BA%C1%C4%D1%FB%C7%EB%C8%B7%C8%CF.md)
+-  ✅[显示-隐藏群成员昵称](doc%2F%C8%BA%B9%DC%C0%ED%2F%CF%D4%CA%BE-%D2%FE%B2%D8%C8%BA%B3%C9%D4%B1%EA%C7%B3%C6.md)
+-  ✅[添加管理员](doc%2F%C8%BA%B9%DC%C0%ED%2F%CC%ED%BC%D3%B9%DC%C0%ED%D4%B1.md)
+-  ✅[添加群成员](doc%2F%C8%BA%B9%DC%C0%ED%2F%CC%ED%BC%D3%C8%BA%B3%C9%D4%B1.md)
+-  ✅[移除管理员](doc%2F%C8%BA%B9%DC%C0%ED%2F%D2%C6%B3%FD%B9%DC%C0%ED%D4%B1.md)
+-  ✅[群聊邀请验证](doc%2F%C8%BA%B9%DC%C0%ED%2F%C8%BA%C1%C4%D1%FB%C7%EB%D1%E9%D6%A4.md)
+-  ✅[获取群成员详细信息](doc%2F%C8%BA%B9%DC%C0%ED%2F%BB%F1%C8%A1%C8%BA%B3%C9%D4%B1%CF%EA%CF%B8%D0%C5%CF%A2.md)
+-  ✅[获取群聊二维码](doc%2F%C8%BA%B9%DC%C0%ED%2F%BB%F1%C8%A1%C8%BA%C1%C4%B6%FE%CE%AC%C2%EB.md)
+-  ✅[获取群聊详细信息](doc%2F%C8%BA%B9%DC%C0%ED%2F%BB%F1%C8%A1%C8%BA%C1%C4%CF%EA%CF%B8%D0%C5%CF%A2.md)
+-  ✅[解散群聊](doc%2F%C8%BA%B9%DC%C0%ED%2F%BD%E2%C9%A2%C8%BA%C1%C4.md)
+-  ✅[设置群公告](doc%2F%C8%BA%B9%DC%C0%ED%2F%C9%E8%D6%C3%C8%BA%B9%AB%B8%E6.md)
+-  ✅[转让群聊](doc%2F%C8%BA%B9%DC%C0%ED%2F%D7%AA%C8%C3%C8%BA%C1%C4.md)
+-  ✅[退出群聊](doc%2F%C8%BA%B9%DC%C0%ED%2F%CD%CB%B3%F6%C8%BA%C1%C4.md)
+-  ✅[邀请加入群聊](doc%2F%C8%BA%B9%DC%C0%ED%2F%D1%FB%C7%EB%BC%D3%C8%EB%C8%BA%C1%C4.md)
+
+**朋友圈**
+-  ✅[上传朋友圈图片](doc%2F%C5%F3%D3%D1%C8%A6%2F%C9%CF%B4%AB%C5%F3%D3%D1%C8%A6%CD%BC%C6%AC.md)
+-  ✅[删除朋友圈](doc%2F%C5%F3%D3%D1%C8%A6%2F%C9%BE%B3%FD%C5%F3%D3%D1%C8%A6.md)
+-  ✅[删除朋友圈评论](doc%2F%C5%F3%D3%D1%C8%A6%2F%C9%BE%B3%FD%C5%F3%D3%D1%C8%A6%C6%C0%C2%DB.md)
+-  ✅[发布朋友圈](doc%2F%C5%F3%D3%D1%C8%A6%2F%B7%A2%B2%BC%C5%F3%D3%D1%C8%A6.md)
+-  ✅[取消点赞朋友圈](doc%2F%C5%F3%D3%D1%C8%A6%2F%C8%A1%CF%FB%B5%E3%D4%DE%C5%F3%D3%D1%C8%A6.md)
+-  ✅[回复朋友圈评论](doc%2F%C5%F3%D3%D1%C8%A6%2F%BB%D8%B8%B4%C5%F3%D3%D1%C8%A6%C6%C0%C2%DB.md)
+-  ✅[点赞朋友圈](doc%2F%C5%F3%D3%D1%C8%A6%2F%B5%E3%D4%DE%C5%F3%D3%D1%C8%A6.md)
+-  ✅[获取企业用户朋友圈信息](doc%2F%C5%F3%D3%D1%C8%A6%2F%BB%F1%C8%A1%C6%F3%D2%B5%D3%C3%BB%A7%C5%F3%D3%D1%C8%A6%D0%C5%CF%A2.md)
+-  ✅[获取朋友圈信息](doc%2F%C5%F3%D3%D1%C8%A6%2F%BB%F1%C8%A1%C5%F3%D3%D1%C8%A6%D0%C5%CF%A2.md)
+-  ✅[获取用户朋友圈信息](doc%2F%C5%F3%D3%D1%C8%A6%2F%BB%F1%C8%A1%D3%C3%BB%A7%C5%F3%D3%D1%C8%A6%D0%C5%CF%A2.md)
+-  ✅[评论朋友圈](doc%2F%C5%F3%D3%D1%C8%A6%2F%C6%C0%C2%DB%C5%F3%D3%D1%C8%A6.md)
+
+**视频号相关**
+-  ✅[关注-取关视频号](doc%2F%CA%D3%C6%B5%BA%C5%2F%B9%D8%D7%A2-%C8%A1%B9%D8%CA%D3%C6%B5%BA%C5.md)
+-  ✅[删除评论](doc%2F%CA%D3%C6%B5%BA%C5%2F%C9%BE%B3%FD%C6%C0%C2%DB.md)
+-  ✅[发布-回复评论](doc%2F%CA%D3%C6%B5%BA%C5%2F%B7%A2%B2%BC-%BB%D8%B8%B4%C6%C0%C2%DB.md)
+-  ✅[推荐-取消推荐作品](doc%2F%CA%D3%C6%B5%BA%C5%2F%CD%C6%BC%F6-%C8%A1%CF%FB%CD%C6%BC%F6%D7%F7%C6%B7.md)
+-  ✅[搜索视频号](doc%2F%CA%D3%C6%B5%BA%C5%2F%CB%D1%CB%F7%CA%D3%C6%B5%BA%C5.md)
+-  ✅[点赞-取消点赞内容](doc%2F%CA%D3%C6%B5%BA%C5%2F%B5%E3%D4%DE-%C8%A1%CF%FB%B5%E3%D4%DE%C4%DA%C8%DD.md)
+-  ✅[获取作品列表](doc%2F%CA%D3%C6%B5%BA%C5%2F%BB%F1%C8%A1%D7%F7%C6%B7%C1%D0%B1%ED.md)
+-  ✅[获取作品弹幕](doc%2F%CA%D3%C6%B5%BA%C5%2F%BB%F1%C8%A1%D7%F7%C6%B7%B5%AF%C4%BB.md)
+-  ✅[获取作品推荐流](doc%2F%CA%D3%C6%B5%BA%C5%2F%BB%F1%C8%A1%D7%F7%C6%B7%CD%C6%BC%F6%C1%F7.md)
+-  ✅[获取作品评论列表](doc%2F%CA%D3%C6%B5%BA%C5%2F%BB%F1%C8%A1%D7%F7%C6%B7%C6%C0%C2%DB%C1%D0%B1%ED.md)
+-  ✅[获取作品评论详情](doc%2F%CA%D3%C6%B5%BA%C5%2F%BB%F1%C8%A1%D7%F7%C6%B7%C6%C0%C2%DB%CF%EA%C7%E9.md)
+-  ✅[获取我的关注列表](doc%2F%CA%D3%C6%B5%BA%C5%2F%BB%F1%C8%A1%CE%D2%B5%C4%B9%D8%D7%A2%C1%D0%B1%ED.md)
+-  ✅[获取我的推荐列表](doc%2F%CA%D3%C6%B5%BA%C5%2F%BB%F1%C8%A1%CE%D2%B5%C4%CD%C6%BC%F6%C1%D0%B1%ED.md)
+-  ✅[获取我的点赞列表](doc%2F%CA%D3%C6%B5%BA%C5%2F%BB%F1%C8%A1%CE%D2%B5%C4%B5%E3%D4%DE%C1%D0%B1%ED.md)
+-  ✅[获取我的观看历史](doc%2F%CA%D3%C6%B5%BA%C5%2F%BB%F1%C8%A1%CE%D2%B5%C4%B9%DB%BF%B4%C0%FA%CA%B7.md)
+-  ✅[获取推荐内容](doc%2F%CA%D3%C6%B5%BA%C5%2F%BB%F1%C8%A1%CD%C6%BC%F6%C4%DA%C8%DD.md)
+-  ✅[视频号作品解密](doc%2F%CA%D3%C6%B5%BA%C5%2F%CA%D3%C6%B5%BA%C5%D7%F7%C6%B7%BD%E2%C3%DC.md)
+
+
+**直播间**
+-  ✅[发送直播间消息](doc%2F%D6%B1%B2%A5%BC%E4%2F%B7%A2%CB%CD%D6%B1%B2%A5%BC%E4%CF%FB%CF%A2.md)
+-  ✅[点赞直播间](doc%2F%D6%B1%B2%A5%BC%E4%2F%B5%E3%D4%DE%D6%B1%B2%A5%BC%E4.md)
+-  ✅[获取直播用户信息](doc%2F%D6%B1%B2%A5%BC%E4%2F%BB%F1%C8%A1%D6%B1%B2%A5%D3%C3%BB%A7%D0%C5%CF%A2.md)
+-  ✅[获取直播间信息](doc%2F%D6%B1%B2%A5%BC%E4%2F%BB%F1%C8%A1%D6%B1%B2%A5%BC%E4%D0%C5%CF%A2.md)
+-  ✅[获取直播间商品列表](doc%2F%D6%B1%B2%A5%BC%E4%2F%BB%F1%C8%A1%D6%B1%B2%A5%BC%E4%C9%CC%C6%B7%C1%D0%B1%ED.md)
+-  ✅[获取直播间消息](doc%2F%D6%B1%B2%A5%BC%E4%2F%BB%F1%C8%A1%D6%B1%B2%A5%BC%E4%CF%FB%CF%A2.md)
+-  ✅[进入直播间](doc%2F%D6%B1%B2%A5%BC%E4%2F%BD%F8%C8%EB%D6%B1%B2%A5%BC%E4.md)
+ 
+
+**公众号相关**
+-  ✅[搜一搜](doc%2F%B9%AB%D6%DA%BA%C5%2F%CB%D1%D2%BB%CB%D1.md)
+-  ✅[获取A8Key](doc%2F%B9%AB%D6%DA%BA%C5%2F%BB%F1%C8%A1A8Key.md)
+-  ✅[获取H5Key](doc%2F%B9%AB%D6%DA%BA%C5%2F%BB%F1%C8%A1H5Key.md)
+-  ✅[获取历史推送消息](doc%2F%B9%AB%D6%DA%BA%C5%2F%BB%F1%C8%A1%C0%FA%CA%B7%CD%C6%CB%CD%CF%FB%CF%A2.md)
+-  ✅[获取视频作品列表](doc%2F%B9%AB%D6%DA%BA%C5%2F%BB%F1%C8%A1%CA%D3%C6%B5%D7%F7%C6%B7%C1%D0%B1%ED.md)
+
+
+**表情包相关**
+-  ✅[获取表情包列表](doc%2F%B1%ED%C7%E9%B0%FC%2F%BB%F1%C8%A1%B1%ED%C7%E9%B0%FC%C1%D0%B1%ED.md)
+-  ✅[获取表情包简要信息](doc%2F%B1%ED%C7%E9%B0%FC%2F%BB%F1%C8%A1%B1%ED%C7%E9%B0%FC%BC%F2%D2%AA%D0%C5%CF%A2.md)
+-  ✅[获取表情包详细信息](doc%2F%B1%ED%C7%E9%B0%FC%2F%BB%F1%C8%A1%B1%ED%C7%E9%B0%FC%CF%EA%CF%B8%D0%C5%CF%A2.md)
+
+**数据库相关**
+-  ✅[备份数据库](doc%2F%CA%FD%BE%DD%BF%E2%2F%B1%B8%B7%DD%CA%FD%BE%DD%BF%E2.md)
+-  ✅[查询数据库](doc%2F%CA%FD%BE%DD%BF%E2%2F%B2%E9%D1%AF%CA%FD%BE%DD%BF%E2.md)
+-  ✅[获取备份库秘钥](doc%2F%CA%FD%BE%DD%BF%E2%2F%BB%F1%C8%A1%B1%B8%B7%DD%BF%E2%C3%D8%D4%BF.md)
+-  ✅[获取数据库信息](doc%2F%CA%FD%BE%DD%BF%E2%2F%BB%F1%C8%A1%CA%FD%BE%DD%BF%E2%D0%C5%CF%A2.md)
+
+**小程序相关**
+-  ✅[刷新小程序会话](doc%2F%D0%A1%B3%CC%D0%F2%2F%CB%A2%D0%C2%D0%A1%B3%CC%D0%F2%BB%E1%BB%B0.md)
+-  ✅[小程序授权](doc%2F%D0%A1%B3%CC%D0%F2%2F%D0%A1%B3%CC%D0%F2%CA%DA%C8%A8.md)
+-  ✅[批量获取小程序信息](doc%2F%D0%A1%B3%CC%D0%F2%2F%C5%FA%C1%BF%BB%F1%C8%A1%D0%A1%B3%CC%D0%F2%D0%C5%CF%A2.md)
+-  ✅[操作云函数](doc%2F%D0%A1%B3%CC%D0%F2%2F%B2%D9%D7%F7%D4%C6%BA%AF%CA%FD.md)
+-  ✅[更新小程序使用记录](doc%2F%D0%A1%B3%CC%D0%F2%2F%B8%FC%D0%C2%D0%A1%B3%CC%D0%F2%CA%B9%D3%C3%BC%C7%C2%BC.md)
+-  ✅[获取小程序code](doc%2F%D0%A1%B3%CC%D0%F2%2F%BB%F1%C8%A1%D0%A1%B3%CC%D0%F2code.md)
+-  ✅[获取小程序使用记录](doc%2F%D0%A1%B3%CC%D0%F2%2F%BB%F1%C8%A1%D0%A1%B3%CC%D0%F2%CA%B9%D3%C3%BC%C7%C2%BC.md)
+-  ✅[获取小程序信息](doc%2F%D0%A1%B3%CC%D0%F2%2F%BB%F1%C8%A1%D0%A1%B3%CC%D0%F2%D0%C5%CF%A2.md)
+-  ✅[获取小程序包下载地址](doc%2F%D0%A1%B3%CC%D0%F2%2F%BB%F1%C8%A1%D0%A1%B3%CC%D0%F2%B0%FC%CF%C2%D4%D8%B5%D8%D6%B7.md)
+
+**位置相关**
+-  ✅[搜索地理位置](doc%2F%CE%BB%D6%C3%2F%CB%D1%CB%F7%B5%D8%C0%ED%CE%BB%D6%C3.md)
+-  ✅[获取位置信息](doc%2F%CE%BB%D6%C3%2F%BB%F1%C8%A1%CE%BB%D6%C3%D0%C5%CF%A2.md)
+-  ✅[获取位置图片](doc%2F%CE%BB%D6%C3%2F%BB%F1%C8%A1%CE%BB%D6%C3%CD%BC%C6%AC.md)
+-  ✅[获取地理位置列表](doc%2F%CE%BB%D6%C3%2F%BB%F1%C8%A1%B5%D8%C0%ED%CE%BB%D6%C3%C1%D0%B1%ED.md)
+
+**其他功能**
+-  ✅[OCR识别](doc%2F%C6%E4%CB%FB%B9%A6%C4%DC%2FOCR%CA%B6%B1%F0.md)
+-  ✅[语音转文本](doc%2F%C6%E4%CB%FB%B9%A6%C4%DC%2F%D3%EF%D2%F4%D7%AA%CE%C4%B1%BE.md)
+-  ✅[锁定微信](doc%2F%C6%E4%CB%FB%B9%A6%C4%DC%2F%CB%F8%B6%A8%CE%A2%D0%C5.md)
+
+
+**登录相关**
+-  ✅[获取登录二维码](doc%2F%B5%C7%C2%BC%CF%E0%B9%D8%2F%BB%F1%C8%A1%B5%C7%C2%BC%B6%FE%CE%AC%C2%EB.md)
+
+**CDN**
+-  ✅[CDN下载](doc%2FCDN%2FCDN%CF%C2%D4%D8.md)
+-  ✅[CDN上传](doc%2FCDN%2FCDN%C9%CF%B4%AB.md)
+
+**社交**
+-  ✅[摇一摇（上报信息）](doc%2F%C9%E7%BD%BB%2F%D2%A1%D2%BB%D2%A1%A3%A8%C9%CF%B1%A8%D0%C5%CF%A2%A3%A9.md)
+-  ✅[摇一摇（获取结果）](doc%2F%C9%E7%BD%BB%2F%D2%A1%D2%BB%D2%A1%A3%A8%BB%F1%C8%A1%BD%E1%B9%FB%A3%A9.md)
+-  ✅[获取附近的人](doc%2F%C9%E7%BD%BB%2F%BB%F1%C8%A1%B8%BD%BD%FC%B5%C4%C8%CB.md)
+
+**转账相关**
+-  ✅[确认收款](doc%2F%D7%AA%D5%CB%CF%E0%B9%D8%2F%C8%B7%C8%CF%CA%D5%BF%EE.md)
+-  ✅[获取详细信息](doc%2F%D7%AA%D5%CB%CF%E0%B9%D8%2F%BB%F1%C8%A1%CF%EA%CF%B8%D0%C5%CF%A2.md)
+-  ✅[退还转账](doc%2F%D7%AA%D5%CB%CF%E0%B9%D8%2F%CD%CB%BB%B9%D7%AA%D5%CB.md)
