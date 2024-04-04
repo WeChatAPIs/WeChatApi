@@ -80,7 +80,6 @@ Individual Version
     - WeChat: xxxxx
     - Phone: xxxxx
     - Telegram: xxxxx
-    - WeChat: xxxxx
 ```
 
 
