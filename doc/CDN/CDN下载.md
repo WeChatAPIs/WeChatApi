@@ -47,12 +47,9 @@
 
 ``` 
   {
-    "error_code": 10000,
-    "description": "",
     "data": {
       "status": 0,
       "desc": "",
-      "data": []
     }
   }
 ```

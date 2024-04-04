@@ -47,12 +47,27 @@
 
 ``` 
   {
-    "error_code": 10000,
-    "description": "",
     "data": {
       "status": 0,
       "desc": "",
-      "data": []
+        "data": {
+            "aeskey": "askey", # askey
+            "encryptfilemd5": "encryptfilemd5",
+            "filecrc": "filecrc",
+            "fileid": "fileid",
+            "filekey": "filekey",
+            "isgetcdn": "0",
+            "isoverload": "0",
+            "isretry": "0",
+            "rawfilekey": "rawfilekey",
+            "rawfilemd5": "rawfilemd5",
+            "rawtotalsize": "rawtotalsize",
+            "recvlen": "recvlen",
+            "retcode": "0",
+            "retrysec": "0",
+            "seq": "1",
+            "ver": "0",
+        },
     }
   }
 ```
