@@ -47,11 +47,11 @@
 
 ---
 ## 🌐 社交媒体和社区
-<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=8MaSQ1tV3E04ZYCzrFpfMQlTN6yhxT48&jump_from=webapi&authKey=Hm0kjqvTb47CLYU8x0Q3FYA4LbvDKvL8VY7Byw9Nle4rEdPw2cmg9Bem4/vyeybU"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="wechatAPI技术交流" title="wechatAPI技术交流"></a>(616651311) （仅通知，无需求不要加！）
+暂无
 
 ---
 ## 🔖 标签
-`微信` `API` `Hook` `微信开发` `协议兼容` `多开微信`
+`微信` `API` `Hook` `微信开发` `协议兼容` `多开微信` `WeChatAPI` `WeChatSDK`
 
 ---
 ## 📅 更新历史记录
