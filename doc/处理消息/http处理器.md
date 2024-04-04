@@ -49,71 +49,126 @@
 ##### 示例代码
 
 ```
-import json
-import logging
-import time
-import traceback
+import re
 
-import uvicorn
-from fastapi import FastAPI, Request
-from fastapi.responses import JSONResponse
+import requests
+from flask import Flask, request, jsonify
 
-
-log = logging.getLogger(__name__)
-
-app = FastAPI()
-
-# 创建一个FIFO链式数据表缓存
-callbackMes = []
-lastPullTime = time.time()
-
-@app.get('/')
-def index():
-    return "Hello World"
-
-@app.post('/weixinCallback')
-def weixinCallback(request: Request):
-    user_input = await request.json()
-    # 当前时间和最后一次拉取时间间隔5分钟，则追加消息
-    global lastPullTime, callbackMes
-    if lastPullTime is not None and time.time() - lastPullTime < 300:
-        callbackMes.append(user_input)
-    else:
-        callbackMes = []
-    # 打印消息
-    print(user_input)
-    return {"response": "success"}
+# Flask常规操作
+app = Flask(__name__)
+WECHAT_API_URL = 'http://127.0.0.1:8888/api/'
 
 
-@app.get('/weixinCallback')
-def weixinCallbackMsg():
-    global lastPullTime
-    lastPullTime = time.time()
-    if callbackMes:
-        message = callbackMes.pop(0)
-        logging.info('Message retrieved and removed from FIFO queue')
-        return json.dumps(message), 200
-    return '', 200
+# 调用GPT和API产生结果
+@app.route('/wechatSDK', methods=['POST'])
+def chat():
+    data = request.json
+    print(data)
+    pushType = data["pushType"]  #
+    # 仅接受群、好友发送的文本消息，其他消息类型不处理
+    # 消息类型详见： https://github.com/kawika-git/wechatAPI/blob/main/doc/doc/处理消息/消息类型.md
+    if pushType != 1 or data["data"]['type'] != 1:
+        return jsonify({"success": "true"})
+    msg_obj = data["data"]
+    # 哪个好友发送的消息，还是哪个群发送的消息
+    sendChannel = msg_obj["from"]
+    # 发送的消息内容是什么
+    msgContent = msg_obj["content"]
+
+    # 如果消息渠道包含@chatroom关键字，说明是群消息，这时需要解析下消息内容，因为消息内容中包含了发送者的id和@信息
+    ifGroupMessage = "@chatroom" in sendChannel
+
+    group_mes_send_user = None
+    if ifGroupMessage:
+        send_content = msgContent.split(":\n")
+        # 解析出是哪个群成员发送的消息，和实际发送的消息内容
+        group_mes_send_user, msgContent = send_content[0], send_content[1]
+        msgContent = re.sub(r'@[^\u2005]+( |$)', '', msgContent).strip()
+
+    # # 调用随机名言API、当然，你可以调用任何你想调用的API，比如ChatGPT
+    # replayMsg = requests.get("https://api.7585.net.cn/yan/api.php?lx=mj").text
+
+    # # 将API的结果给这个用户，其他的微信API能力，可以参考：https://github.com/kawika-git/wechatAPI/blob/main/menu.md
+    # requests.post(WECHAT_API_URL, json={
+    #     "type": 10009,
+    #     "userName": sendChannel,  # 哪个好友发送的消息就回复给哪个好友，哪个群发送的消息就回复给哪个群
+    #     "msgContent": replayMsg  # 回复的内容
+    # })
+
+    # # 如果我想监听群消息，有人说话我就回复应该怎么样？
+    # if ifGroupMessage:
+    #     # 调用随机名言API、当然，你可以调用任何你想调用的API，比如ChatGPT
+    #     replayMsg = requests.get("https://api.7585.net.cn/yan/api.php?lx=mj").text
+    #     requests.post(WECHAT_API_URL, json={
+    #         "type": 10009,
+    #         "userName": sendChannel,  # 哪个好友发送的消息就回复给哪个好友，哪个群发送的消息就回复给哪个群
+    #         "msgContent": replayMsg  # 回复的内容
+    #     })
+
+    # 如果我想别人在群里@我的时候，我才回复，并且回复的时候我@对方，该怎么办呢？
+    # 必须是群消息，才能有@功能
+    if ifGroupMessage:
+        # 先获取到自己的微信id
+        login_wxid = data['robot']['userName']
+        # 如果不是@我的消息，我就不回复了
+        if login_wxid not in data['data']["reversed1"]:
+            return jsonify({"success": "true"})
+        # 调用随机名言API、当然，你可以调用任何你想调用的API，比如ChatGPT
+        replayMsg = requests.get("https://api.7585.net.cn/yan/api.php?lx=mj").text
+
+        # 获取到发送人的微信名
+        group_mes_send_user_Name = msg_obj["chatroomMemberInfo"]["nickName"]
+        # 把@消息拼到回复消息中
+        replayMsg = f"@{group_mes_send_user_Name} {replayMsg}"
+        requests.post(
+            WECHAT_API_URL,
+            json={
+                "type": 10009,
+                "userName": sendChannel,  # 哪个好友发送的消息就回复给哪个好友，哪个群发送的消息就回复给哪个群
+                "msgContent": replayMsg,  # 回复的内容
+                "atUserList": [group_mes_send_user]
+            })
+
+    print(f"{sendChannel} 发送了消息：{msgContent}")
+    return jsonify({"success": "true"})
 
 
-# 定义全局异常处理器
-@app.exception_handler(Exception)
-def handle_exception(request: Request, exc: Exception):
-    # 获取异常的堆栈信息
-    exc_info = traceback.format_exc()
-    # 记录错误日志
-    logging.error(f"Unhandled Exception: {type(exc).__name__}: {exc}\n{exc_info}")
-    # 返回错误响应
-    return JSONResponse(status_code=500, content={"message": f"An error occurred: {exc}"})
+def addCallBackUrl(callBackUrl):
+    """
+    设置回调地址，当有人发送消息时，微信会就把信息发送到这个接口中
+    :param callBackUrl: 回调地址，当有人发送消息时，微信会就把信息发送到这个接口中
+    :return: 
+    """
+    # 获取所有的回调地址
+    resdatalist = requests.post(WECHAT_API_URL, json={
+        "type": 1003,
+    }).json()["data"]["data"]
+    # 删除之前的回调地址
+    for item in resdatalist:
+        requests.post(WECHAT_API_URL,
+                      json={
+                          "type": 1002,
+                          "cookie": item["cookie"],
+                      })
+    # 设置新的回调地址
+    requests.post(WECHAT_API_URL,
+                  json={
+                      "type": 1001,
+                      "protocol": 2,
+                      "url": callBackUrl
+                  })
 
-
-def runHttpServer():
-    host = "0.0.0.0"
-    port = 18000
-    uvicorn.run(app, host=host, port=port)
 
 if __name__ == '__main__':
-    runHttpServer()
+    # 将微信回调地址设置为这个服务的地址
+    try:
+        # 给微信设置回调地址，当有人给发送消息时，微信会就把信息发送到这个接口中
+        addCallBackUrl("http://127.0.0.1:18000/wechatSDK")
+        print("连接微信成功")
+    except Exception as e:
+        print("连接微信失败", e)
+    app.run(host='0.0.0.0', port=18000)
+
 ```
 
 ##### 返回参数说明 
