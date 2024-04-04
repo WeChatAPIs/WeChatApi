@@ -5,7 +5,7 @@
 
 - WechatAPI 基于微信 Windows 协议和微信安卓协议开发，为你提供一套强大的微信 API
   工具。
-- 我们的目标是让你的微信接入更开放，更可定制。[**立即试用**](doc/readme/立即试用.md)，体验我们的优势。
+- 我们的目标是让你的微信接入更开放，更可定制。[**立即试用**](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/readme/立即试用.md)，体验我们的优势。
 - 适合懂任一编程语言的个人开发者使用
 - 适合团队中有技术人员的团队使用
 
@@ -17,13 +17,13 @@
   同时会提供内容、频率、行为等方面风控建议文档
   ```
 - **✅[多开微信]()**：```原生支持多开微信```
-- **✅[附近人](doc/社交/获取附近的人.md)**：```支持添加[附近的人] 添加任意位置的附近人```
-- **✅[语音条](doc/发送消息/发送语音.md)**：```融合安卓版本[发送语音条]```
-- **✅[视频号](doc/视频号)**：```融合安卓版本[视频号API] 视频号暴力曝光```
-- **✅[朋友圈](doc/朋友圈)**：```融合安卓版本[朋友圈API] 朋友圈统计复刻```
-- **✅[直播间](doc/直播间)**：```融合安卓版本[直播间API] 直播间刷屏爬虫```
-- **✅[公众号API](doc/公众号)**：```融合安卓版本[公众号API] 公众号文章爬虫，点赞阅读数```
-- **✅[查看更多](menu.md)**：[查看更多API](menu.md)
+- **✅[附近人](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/社交/获取附近的人.md)**：```支持添加[附近的人] 添加任意位置的附近人```
+- **✅[语音条](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/发送消息/发送语音.md)**：```融合安卓版本[发送语音条]```
+- **✅[视频号](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/视频号)**：```融合安卓版本[视频号API] 视频号暴力曝光```
+- **✅[朋友圈](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/朋友圈)**：```融合安卓版本[朋友圈API] 朋友圈统计复刻```
+- **✅[直播间](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/直播间)**：```融合安卓版本[直播间API] 直播间刷屏爬虫```
+- **✅[公众号API](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/公众号)**：```融合安卓版本[公众号API] 公众号文章爬虫，点赞阅读数```
+- **✅[查看更多](https://github.com/WeChatAPIs/WeChatAPI/blob/main/menu.md)**：[查看更多API](https://github.com/WeChatAPIs/WeChatAPI/blob/main/menu.md)
 
 ---
 ## ✨ 与市面上开源产品的区别：
@@ -40,8 +40,8 @@
 ```
 ---
 ## 🚀 免费试用
-- [🚀 **立即试用**](doc/readme/立即试用.md)，体验我们的优势。
-- [🚀 **版本说明**](doc/readme/版本说明.md)，了解不同版本权益。
+- [🚀 **立即试用**](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/readme/立即试用.md)，体验我们的优势。
+- [🚀 **版本说明**](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/readme/版本说明.md)，了解不同版本权益。
 
 ---
 ## 🤝 贡献和反馈
@@ -60,51 +60,51 @@
 ### 2024年
 - **03月25日**：
   - 对WechatAPI的文档结构进行了调整
-  - [查找附近的人](doc/社交/获取附近的人.md)现在可以使用经纬度来查询附近的人
-  - 现在支持[添加附近的人](doc/通讯录/添加好友.md)
-  - 现在支持获取[公众号历史推送文章](doc/公众号/获取历史推送消息.md)
-  - 现在支持[收款码收款提醒](doc/处理消息/http处理器.md)
+  - [查找附近的人](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/社交/获取附近的人.md)现在可以使用经纬度来查询附近的人
+  - 现在支持[添加附近的人](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/通讯录/添加好友.md)
+  - 现在支持获取[公众号历史推送文章](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/公众号/获取历史推送消息.md)
+  - 现在支持[收款码收款提醒](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/处理消息/http处理器.md)
   - 发布了版本[wechatAPI_1.1.5]()
 - **03月19日**：
   - 对API文档进行了更新
   - 修复了部分API接口对企业微信好友不友好的问题
-  - 新增了API：[企业好友信息](doc/通讯录/获取企业用户信息.md)
+  - 新增了API：[企业好友信息](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/通讯录/获取企业用户信息.md)
   - 发布了版本[wechatAPI_1.1.4]()
 - **03月13日**：
   - 更新了使用手册
   - 修复了部分API接口偶尔不能使用的问题
-  - 发布了朋友圈API并增加了防识别扰乱参数：[发布朋友圈](doc/朋友圈/发布朋友圈.md)，请谨慎使用，部分账号可能会触发风控
+  - 发布了朋友圈API并增加了防识别扰乱参数：[发布朋友圈](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/朋友圈/发布朋友圈.md)，请谨慎使用，部分账号可能会触发风控
   - 发布了版本[wechatAPI_1.1.3.f2]()，增强了防封策略，加入了主动扰乱识别机制。
 - **03月06日**：
   - 更新了使用手册
-  - 更新了文档，增加了更多示例：[获取所有好友列表](doc/通讯录/获取所有好友列表.md)
-  - 新增了API：[获取企业好友昵称](doc/通讯录/获取企业用户昵称.md)
-  - 新增了API：[获取群列表](doc/群管理/获取所有群列表.md)
-  - 新增了文档：[微信数据库简述](doc/数据库/微信数据库简述.md)
+  - 更新了文档，增加了更多示例：[获取所有好友列表](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/通讯录/获取所有好友列表.md)
+  - 新增了API：[获取企业好友昵称](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/通讯录/获取企业用户昵称.md)
+  - 新增了API：[获取群列表](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/群管理/获取所有群列表.md)
+  - 新增了文档：[微信数据库简述](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/数据库/微信数据库简述.md)
   - 发布了版本:[wechatAPI_1.1.3]()，优化了防封机制，增加了避免被识别的机制。
 - **02月21日**：
   - 更新了使用手册
   - 不再支持ARM系统（如打开启动器后乱码，则表示不支持）
-  - 新增了[获取所有好友列表](doc/通讯录/获取所有好友列表.md)
+  - 新增了[获取所有好友列表](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/通讯录/获取所有好友列表.md)
 - **02月18日**：
   - 开工大吉！
   - 发布了修复版:[1.1.2.f1]()，解决了启动器由于电脑因弱网环境崩溃问题，增加了已知避免被识别的机制。
-  - 修复了[微信防撤回通知](doc/其他功能/开启关闭防撤回.md)接口偶尔不能使用的问题。
-  - 新增了[删除单个消息回调处理器](doc/处理消息/移除处理器.md)接口
+  - 修复了[微信防撤回通知](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/其他功能/开启关闭防撤回.md)接口偶尔不能使用的问题。
+  - 新增了[删除单个消息回调处理器](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/处理消息/移除处理器.md)接口
 - **02月04日**：
-  - 修复了[添加群成员到通讯录](doc/群管理/添加群成员到通讯录.md)接口偶尔出现的异常
-  - 更新了[发送语音条](doc/发送消息/发送语音.md)接口文档，功能没有变更
+  - 修复了[添加群成员到通讯录](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/群管理/添加群成员到通讯录.md)接口偶尔出现的异常
+  - 更新了[发送语音条](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/发送消息/发送语音.md)接口文档，功能没有变更
   - 年前最后一次更新，祝大家新年快乐
 - **01月31日**：
-  - 新增了[转发图片.md](doc/发送消息/转发图片.md)接口。
-  - 新增了[转发文件.md](doc/发送消息/转发文件.md)接口。
-  - 新增了[转发视频.md](doc/发送消息/转发视频.md)接口。
-  - 新增了[转发语音.md](doc/发送消息/转发语音.md)接口。
+  - 新增了[转发图片.md](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/发送消息/转发图片.md)接口。
+  - 新增了[转发文件.md](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/发送消息/转发文件.md)接口。
+  - 新增了[转发视频.md](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/发送消息/转发视频.md)接口。
+  - 新增了[转发语音.md](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/发送消息/转发语音.md)接口。
   - 通过好友申请接口新增了scene字段，可以从消息xml中获取。
   - 发布了版本:1.1.2
 - **01月24日**：
-  - 添加了[开启/关闭防撤回](doc/其他功能/开启关闭防撤回.md)接口。监听到撤回消息时，会将原消息内容一起推送
-  - 新增了[文本翻译](doc/其他功能/文本翻译.md)接口。
+  - 添加了[开启/关闭防撤回](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/其他功能/开启关闭防撤回.md)接口。监听到撤回消息时，会将原消息内容一起推送
+  - 新增了[文本翻译](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/其他功能/文本翻译.md)接口。
 - **1月03日**：
   - 准备发朋友圈接口xml示例 xml详见：[点击查看](https://github.com/kawika-git/wechatSDK)
   - 准备发送小程序xml示例
@@ -113,18 +113,18 @@
 
 - **12月23日**：
   - 后续不再持续支持3.9.2.*版本的新api。现有api将持续支持，有bug会修复。
-  - 修复了[视频号作品解密](doc/视频号/视频号作品解密.md)
-  - 新增了[发送视频.md](doc/发送消息/发送视频.md)
-  - 新增了[发送链接.md](doc/发送消息/发送链接.md)
+  - 修复了[视频号作品解密](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/视频号/视频号作品解密.md)
+  - 新增了[发送视频.md](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/发送消息/发送视频.md)
+  - 新增了[发送链接.md](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/发送消息/发送链接.md)
 - **11月24日**：
-  - [获取用户信息](doc/通讯录/获取用户信息.md)接口新增了字段，支持通过群聊获取用户信息。
-  - 新增了[添加群成员到通讯录](doc/群管理/添加群成员到通讯录.md)接口。
-  - 新增了[WebSocket处理器](doc/处理消息/WebSocket处理器.md)
-  - 新增了[获取消息处理器列表](doc/处理消息/获取消息处理器列表.md)接口。
-  - 新增了[退出登录](doc/登录相关/退出登录.md)接口。
+  - [获取用户信息](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/通讯录/获取用户信息.md)接口新增了字段，支持通过群聊获取用户信息。
+  - 新增了[添加群成员到通讯录](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/群管理/添加群成员到通讯录.md)接口。
+  - 新增了[WebSocket处理器](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/处理消息/WebSocket处理器.md)
+  - 新增了[获取消息处理器列表](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/处理消息/获取消息处理器列表.md)接口。
+  - 新增了[退出登录](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/登录相关/退出登录.md)接口。
   - 消息推送与主动调用格式进行了优化。
   - 修复了多线程调用时的Bug。
-  - 对[获取个人信息](doc/个人信息/获取个人信息.md)接口进行了优化。
+  - 对[获取个人信息](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/个人信息/获取个人信息.md)接口进行了优化。
 - **11月11日**：
   - 优化了退出事件监听。
   - 优化了消息推送。
