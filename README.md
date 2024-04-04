@@ -1,10 +1,10 @@
-### 🌍 *[English](README-en.md) ∙ [简体中文](README.md)*
+### 🌍 *[English](https://github.com/WeChatAPIs/WeChatAPI/blob/main/README-en.md) ∙ [简体中文](https://github.com/WeChatAPIs/WeChatAPI/blob/main/README.md)*
 
 
 # 🚀WeChatApi - 你的微信接口和 Hook 解决方案
 
-- WechatAPI 基于微信 Windows 协议和微信安卓协议开发，为你提供一套强大的微信 API
-  工具。
+- WechatAPI 基于微信 Windows 协议和微信安卓协议开发，为你提供一套强大的微信 API工具。
+- 文档迁移至：[官方API网址](https://github.com/WeChatAPIs/WeChatAPI)
 - 我们的目标是让你的微信接入更开放，更可定制。[**立即试用**](https://github.com/WeChatAPIs/WeChatAPI/blob/main/doc/readme/立即试用.md)，体验我们的优势。
 - 适合懂任一编程语言的个人开发者使用
 - 适合团队中有技术人员的团队使用
@@ -189,3 +189,6 @@
   - 获取用户信息接口添加了remark字段。
   - 优化了批量获取用户信息接口。
   - 修复了http服务崩溃的Bug。
+ 
+**官网**
+[官方网站](https://wechatsdk.com/)
