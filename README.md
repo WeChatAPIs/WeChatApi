@@ -1,3 +1,6 @@
+## 🌍 *[English](README-en.md) ∙ [简体中文](README.md)*
+
+
 # 微信 API - 强大的微信接口和 Hook 工具
 
 ## 🌟 项目简介
@@ -75,8 +78,6 @@
     - QQ: xxxxx
     - 微信: xxxxx
     - 电话: xxxxx
-    - Telegram: xxxxx
-    - WeChat: xxxxx
 ```
 
 
