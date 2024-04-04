@@ -1,8 +1,16 @@
 # wechatAPI
-wechat api
+微信黑科技：微信API、微信Hook、wechat hook
 
 
-## 项目介绍
+## 联系方式：
+- 商务咨询：wetool_api@163.com
+- 免费试用：wetool_api@163.com （按文档最下方邮件格式发送，AI自动审核）
+
+## 接口文档
+- **[点击查看](menu.md)**
+
+
+# 项目介绍
 
 基于**微信Windows协议**和**安卓协议**开发的
 
