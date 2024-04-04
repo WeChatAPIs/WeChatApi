@@ -16,11 +16,11 @@
 
 ##### 参数
 
-|参数名|必选|类型|说明|
-|:----    |:---|:----- |-----   |
-|type |是  |int | 接口编号    |
-|protocol |是  |int | 协议类型    |
-|url     |是  |string | 服务器地址    |
+| 参数名      | 必选 | 类型     | 说明    |   
+|:---------|:---|:-------|-------|   
+| type     | 是  | int    | 接口编号  |   
+| protocol | 是  | int    | 协议类型  |   
+| url      | 是  | string | 服务器地址 |   
 
 ##### 请求示例
 
@@ -83,7 +83,7 @@ def chat():
         send_content = msgContent.split(":\n")
         # 解析出是哪个群成员发送的消息，和实际发送的消息内容
         group_mes_send_user, msgContent = send_content[0], send_content[1]
-        msgContent = re.sub(r'@[^\u2005]+( |$)', '', msgContent).strip()
+        msgContent = re.sub(r'@[^\u2005]+( |   $)', '', msgContent).strip()
 
     # # 调用随机名言API、当然，你可以调用任何你想调用的API，比如ChatGPT
     # replayMsg = requests.get("https://api.7585.net.cn/yan/api.php?lx=mj").text
@@ -173,11 +173,11 @@ if __name__ == '__main__':
 
 ##### 返回参数说明 
 
-|参数名|类型|说明|
-|:-----  |:-----|-----                           |
-|error_code |int   |错误代码  |
-|description|string|错误描述|
-|data|json|业务数据|
+| 参数名         | 类型     | 说明   |   
+|:------------|:-------|------|   
+| error_code  | int    | 错误代码 |   
+| description | string | 错误描述 |   
+| data        | json   | 业务数据 |   
 
 ##### 备注 
 
