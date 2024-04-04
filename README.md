@@ -72,7 +72,7 @@
 我们欢迎并鼓励社区贡献和反馈。如果您有任何建议或想要贡献代码，请通过 Issues 或 Pull Requests 与我们联系。
 
 ## 🌐 社交媒体和社区
-<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=8MaSQ1tV3E04ZYCzrFpfMQlTN6yhxT48&jump_from=webapi&authKey=Hm0kjqvTb47CLYU8x0Q3FYA4LbvDKvL8VY7Byw9Nle4rEdPw2cmg9Bem4/vyeybU"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="wechatAPI技术交流" title="wechatAPI技术交流"></a> （仅技术支持，无需求不要加！）
+<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=8MaSQ1tV3E04ZYCzrFpfMQlTN6yhxT48&jump_from=webapi&authKey=Hm0kjqvTb47CLYU8x0Q3FYA4LbvDKvL8VY7Byw9Nle4rEdPw2cmg9Bem4/vyeybU"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="wechatAPI技术交流" title="wechatAPI技术交流"></a>(616651311) （仅技术支持，无需求不要加！）
 
 ## 🔖 标签
 `微信` `API` `Hook` `微信开发` `协议兼容` `多开微信`
