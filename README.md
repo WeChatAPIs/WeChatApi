@@ -1,7 +1,7 @@
 ### 🌍 *[English](README-en.md) ∙ [简体中文](README.md)*
 
 
-# 🚀微信 API - 你的微信接口和 Hook 解决方案
+# 🚀WeChatApi - 你的微信接口和 Hook 解决方案
 
 - WechatAPI 基于微信 Windows 协议和微信安卓协议开发，为你提供一套强大的微信 API
   工具。
