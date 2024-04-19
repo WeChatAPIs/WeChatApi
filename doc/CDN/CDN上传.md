@@ -1,6 +1,6 @@
 
 
-[TOC]
+
 
 #### 简要描述
 
@@ -38,9 +38,8 @@
   "type": 7,
   "filePath": "C:\\xxx.txt",
   "aeskey": "e742f8ce990980e402b00f89dc8d1d4d",
-  "fileType": 5,
+  "fileType": 5
  } 
-
 ```
 
 #### 返回示例

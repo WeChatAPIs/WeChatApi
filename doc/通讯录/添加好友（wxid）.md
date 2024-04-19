@@ -23,7 +23,7 @@
  {
   "type": 10034,
   "userName": "wxid_xxxx",
-  "message": "我是xxx",
+  "message": "我是xxx"
  } 
 ```
 

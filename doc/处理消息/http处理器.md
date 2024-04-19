@@ -1,8 +1,7 @@
 
 #### 简要描述
 
-- 添加HTTP消息处理器，您需要自己实现**Http Server**。
-- 该类处理器使用短连接，发送完成后会自动断开。
+- 添加HTTP消息处理器，你需要自己实现**Http Server**。
 - 推送方式为`POST`
 
 #### 请求URL
@@ -25,20 +24,26 @@
  {
   "type": 1001,
   "protocol": 2,
-  "url": "http://127.0.0.1:8888/",
+  "url": "http://127.0.0.1:8888/"
  } 
 ```
 
-#### 返回示例 
-
-``` 
-  {
-    "data": {
-      "status": 0,
-      "desc": "",
-      "cookie": ""
-    }
-  }
+#### 推送示例
+```
+{
+  "pushType": 1,
+  "pushTime": 1685179951,
+  "data": 
+      {
+          "from": "wxid_xxx",
+          "to": "wxid_xxx",
+		  "type": 1,
+		  "content": "123",
+		  "msgSvrID": 1111111111111111111111,
+		  "reversed1": "xxx",
+		  "createTime": 1685179951
+      }
+} 
 ```
 
 #### 示例代码
@@ -61,7 +66,7 @@ def chat():
     print(data)
     pushType = data["pushType"]  #
     # 仅接受群、好友发送的文本消息，其他消息类型不处理
-    # 消息类型详见： https://github.com/kawika-git/wechatAPI/blob/main/doc/doc/处理消息/消息类型.md
+    # 消息类型详见： https://github.com/WeChatAPIs/wechatAPI/blob/main/doc/处理消息/消息类型.md
     if pushType != 1 or data["data"]['type'] != 1:
         return jsonify({"success": "true"})
     msg_obj = data["data"]
@@ -83,7 +88,7 @@ def chat():
     # # 调用随机名言API、当然，你可以调用任何你想调用的API，比如ChatGPT
     # replayMsg = requests.get("https://api.7585.net.cn/yan/api.php?lx=mj").text
 
-    # # 将API的结果给这个用户，其他的微信API能力，可以参考：https://github.com/kawika-git/wechatAPI/blob/main/menu.md
+    # # 将API的结果给这个用户，其他的微信API能力，可以参考：https://github.com/WeChatAPIs/wechatAPI/blob/main/menu.md
     # requests.post(WECHAT_API_URL, json={
     #     "type": 10009,
     #     "userName": sendChannel,  # 哪个好友发送的消息就回复给哪个好友，哪个群发送的消息就回复给哪个群
@@ -132,23 +137,25 @@ def addCallBackUrl(callBackUrl):
     """
     设置回调地址，当有人发送消息时，微信会就把信息发送到这个接口中
     :param callBackUrl: 回调地址，当有人发送消息时，微信会就把信息发送到这个接口中
-    :return: 
+    :return:
     """
     # 获取所有的回调地址
     resdatalist = requests.post(WECHAT_API_URL, json={
-        "type": 1003,
+        "type": 1003
     }).json()["data"]["data"]
     # 删除之前的回调地址
     for item in resdatalist:
         requests.post(WECHAT_API_URL,
                       json={
                           "type": 1002,
-                          "cookie": item["cookie"],
+                          "cookie": item["cookie"]
                       })
     # 设置新的回调地址
     requests.post(WECHAT_API_URL,
                   json={
-                      "type": 1001,                  "url": callBackUrl
+                      "type": 1001,
+                      "protocol": 2,
+                      "url": callBackUrl
                   })
 
 
@@ -161,7 +168,6 @@ if __name__ == '__main__':
     except Exception as e:
         print("连接微信失败", e)
     app.run(host='0.0.0.0', port=18000)
-
 ```
 
 #### 返回参数说明 

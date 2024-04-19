@@ -125,7 +125,7 @@ We welcome and encourage community contributions and feedback. If you have any s
   - Added [Open/Close Anti-Revoke](doc/其他功能/开启关闭防撤回.md) interface. When a message is retracted, the original message content will be pushed along with it.
   - Added [Text Translation](doc/其他功能/文本翻译.md) interface.
 - **January 3rd**:
-  - Prepared Moments interface XML example, see here: [Click to view](https://github.com/kawika-git/wechatSDK)
+  - Prepared Moments interface XML example, see here: [Click to view](https://github.com/WeChatApis/wechatSDK)
   - Prepared sending mini-program XML example
 ### 2023
 - **December 23rd**:

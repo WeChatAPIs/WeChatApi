@@ -23,7 +23,7 @@
  {
   "type": 10053,
   "userName": "filehelper",
-  "content": "<appmsg appid=\"\" sdkver=\"\">...</appmsg>",
+  "content": "<appmsg appid=\"\" sdkver=\"\">...</appmsg>"
  } 
 ```
 

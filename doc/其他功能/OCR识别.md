@@ -21,7 +21,7 @@
 ```
  {
   "type": 10055,
-  "filePath": "C:\\xxx.png",
+  "filePath": "C:\\xxx.png"
  } 
 ```
 
