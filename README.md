@@ -74,6 +74,7 @@
   - 增加[获得热点视频](https://www.wechatsdk.com/docs/视频号/获取热点视频.md)
   - 增加[设置API访问密钥](https://www.wechatsdk.com/docs/其他功能/设置API访问秘钥.md)
   - 增加[转化wxgf文件](https://www.wechatsdk.com/docs/表情包/转换wxgf文件.md)
+  - 增加新的启动方式，不再依赖启动器了
   - 修复bug：登录失败时会导致微信退出
   - 发布新版本[1.1.10]()
 - **04月22日**：
