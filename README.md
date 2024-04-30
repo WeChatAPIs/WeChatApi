@@ -226,4 +226,4 @@
   - 修复了http服务崩溃的Bug。
  
 **官网**
-[官方网站](https://wechatsdk.com/)
+[官方网站](https://www.wechatsdk.com/)
