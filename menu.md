@@ -7,7 +7,6 @@
 
 **readme**
 -  ✅[更新日志](doc/readme/更新日志.md)
--  ✅[版本说明](doc/readme/版本说明.md)
 -  ✅[立即试用](doc/readme/立即试用.md)
 
 
