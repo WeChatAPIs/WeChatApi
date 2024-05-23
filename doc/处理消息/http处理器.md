@@ -52,6 +52,7 @@
 import re
 
 import requests
+import xmltodict
 from flask import Flask, request, jsonify
 
 # Flask常规操作
@@ -59,25 +60,40 @@ app = Flask(__name__)
 WECHAT_API_URL = 'http://127.0.0.1:8888/api/'
 
 
-# 调用GPT和API产生结果
+# 接受消息推送的接口，所有的消息都会回调到这个接口中，由于只是演示，就只支持一个微信，如果多开了微信回调到同一个服务的同一个接口，需自行解析处理
 @app.route('/wechatSDK', methods=['POST'])
 def chat():
     data = request.json
     print(data)
     pushType = data["pushType"]  #
-    # 仅接受群、好友发送的文本消息，其他消息类型不处理
-    # 消息类型详见： https://github.com/WeChatAPIs/wechatAPI/blob/main/doc/处理消息/消息类型.md
-    if pushType != 1 or data["data"]['type'] != 1:
+    if pushType != 1:  # 这里演示，只处理同步类型消息，其他类型可以自行处理
         return jsonify({"success": "true"})
+    # 消息类型详见： https://github.com/WeChatAPIs/wechatAPI/blob/main/doc/处理消息/消息类型.md
+    if data["data"]['type'] == 1:
+        # 文本消息
+        hadle_text_msg(data)
+    # 消息类型详见： https://github.com/WeChatAPIs/wechatAPI/blob/main/doc/处理消息/消息类型.md
+    if data["data"]['type'] == 34:
+        # 语音消息
+        handle_audio_msg(data)
+    if data["data"]['type'] == 3:
+        # 图片消息
+        handle_image_msg(data)
+    if data["data"]['type'] == 49:
+        # XML消息
+        handle_xml_msg(data)
+    return jsonify({"success": "true"})
+
+
+# 调用GPT和API产生结果
+def hadle_text_msg(data):
     msg_obj = data["data"]
     # 哪个好友发送的消息，还是哪个群发送的消息
     sendChannel = msg_obj["from"]
     # 发送的消息内容是什么
     msgContent = msg_obj["content"]
-
     # 如果消息渠道包含@chatroom关键字，说明是群消息，这时需要解析下消息内容，因为消息内容中包含了发送者的id和@信息
     ifGroupMessage = "@chatroom" in sendChannel
-
     group_mes_send_user = None
     if ifGroupMessage:
         send_content = msgContent.split(":\n")
@@ -129,8 +145,86 @@ def chat():
                 "atUserList": [group_mes_send_user]
             })
 
-    print(f"{sendChannel} 发送了消息：{msgContent}")
-    return jsonify({"success": "true"})
+        print(f"{sendChannel} 发送了消息：{msgContent}")
+    pass
+
+
+def handle_audio_msg(data):
+    xmlContent = data['data']['content']
+    # 企业微信
+    split = xmlContent.split(":\n")
+    xmlContent = len(split) > 1 and split[1] or xmlContent
+    content = xmltodict.parse(xmlContent)
+    aeskey = content['msg']['voicemsg']['@aeskey']
+    fileid = content['msg']['voicemsg']['@voiceurl']
+    # 下载音频文件
+    requests.post(
+        WECHAT_API_URL,
+        json={
+            "type": 66,
+            "fileid": fileid,
+            "aeskey": aeskey,
+            "fileType": 15,
+            "savePath": f"D:\\aa\\{aeskey}.slik"
+        })
+    # 识别音频文件
+    text = requests.post(
+        WECHAT_API_URL,
+        json={
+            "type": 10045,
+            "filePath": "D:\\aa\\" + aeskey + ".slik"
+        })
+    print("语音转文字结果：" + text.json())
+    pass
+
+
+def handle_xml_msg(data):
+    xmlContent = data['data']['content']
+    # 企业微信
+    split = xmlContent.split(":\n")
+    xmlContent = len(split) > 1 and split[1] or xmlContent
+    content = xmltodict.parse(xmlContent)
+    type = content['msg']['appmsg']['type']
+    if type != str(6):
+        # type 6 是文件，可以下载的，其他类型的消息自行处理，这里只处理文件类型
+        return
+    fileName = content['msg']['appmsg']['title']
+    fileId = content['msg']['appmsg']['appattach']['cdnattachurl']
+    aeskey = content['msg']['appmsg']['appattach']['aeskey']
+    # 下载文件
+    requests.post(
+        WECHAT_API_URL,
+        json={
+            "type": 66,
+            "fileid": fileId,
+            "aeskey": aeskey,
+            "fileType": 5,
+            "savePath": f"D:\\aa\\{fileName}"
+        })
+    print(content)
+    pass
+
+
+def handle_image_msg(data):
+    xmlContent = data['data']['content']
+    # 企业微信
+    split = xmlContent.split(":\n")
+    xmlContent = len(split) > 1 and split[1] or xmlContent
+    content = xmltodict.parse(xmlContent)
+    aeskey = content['msg']['img']['@aeskey']
+    fileid = content['msg']['img']['@cdnthumburl']
+    # 下载图片
+    requests.post(
+        WECHAT_API_URL,
+        json={
+            "type": 66,
+            "fileid": fileid,
+            "aeskey": aeskey,
+            "fileType": 2,
+            "savePath": f"D:\\aa\\{aeskey}.png"
+        })
+    print(content)
+    pass
 
 
 def addCallBackUrl(callBackUrl):
