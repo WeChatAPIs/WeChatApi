@@ -58,6 +58,20 @@
 ---
 ## 📅 更新历史记录
 ### 2024年
+- **05月29日**：
+  - 尝试修复一个Bug，该Bug曾导致：个别电脑消息发送量大时出现消息阻塞的情况。（该现象与电脑配置有关）
+  - 优化API:[检测链接是否被封禁](https://www.wechatsdk.com/docs/安全/检测链接是否被封禁.md)。
+  - 发布3.9.10版本的[1.0.4.f3]()
+- **05月27日**：
+  - 修复了一个Bug，该Bug曾导致：个别电脑消息量大时出现[发送文本](https://www.wechatsdk.com/docs/发送消息/发送文本.md)消息阻塞的情况。
+  - [下载朋友圈图片](https://www.wechatsdk.com/docs/朋友圈/下载朋友圈图片视频.md)文档整理。
+  - 对于经常碰到的问题的API整理下了文档，关于如何接收消息请参考：[http消息处理器](https://www.wechatsdk.com/docs/处理消息/http处理器.md)下方的代码示例，如果是远程推送则推荐ws协议。
+  - 发布3.9.10版本的[1.0.4.f2]()
+- **05月24日**：
+  - 修复了一个Bug，该Bug曾导致：调用[cdn下载](https://www.wechatsdk.com/docs/CDN/CDN下载.md)接口下载图片报错400。
+  - [设置API访问秘钥](https://www.wechatsdk.com/docs/安全/设置API访问秘钥.md)接口所需参数名修改为newSecretKey，现在可以正确的取消访问秘钥。
+  - [视频号作品解密接口](https://www.wechatsdk.com/docs/视频号/视频号作品解密.md)现在可以接受一个64位的decodeKey，可以用于解密朋友圈视频（含缩略图）、图片。
+  - 发布3.9.10版本的[1.0.4.f1]()
 - **05月20日**：
   - 新增[数据库获取联系人信息](https://www.wechatsdk.com/docs/数据库/获取联系人信息.md)接口，支持传入列表以获取多个联系人信息，同时可以指定群id，此时会尝试匹配成员在群内的信息。
   - 新增[数据库获取群聊信息](https://www.wechatsdk.com/docs/数据库/获取群聊信息.md)接口。

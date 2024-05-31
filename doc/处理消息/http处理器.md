@@ -27,6 +27,17 @@
   "url": "http://127.0.0.1:18000/"
  } 
 ```
+#### 常见问题
+```
+1、回调的远程服务器，为什么有时候接收不到消息
+    1.1、为了防止消息堆积造成压力过大，底层做了http请求超时时间，加了超时时间就和网络、远程服务处理性能这些东西有关系
+    建议：
+      - 本地做一层中转，根据业务需求和服务器处理性能，自行控制超时时间和转发频率这类内容，多一层中转，也会有很多优势
+      - 试用ws协议
+2、回调的本地，为什么有时候消息会卡住，输入回车才能继续接收到消息
+    2.1、window的黑窗口默认是开启【快速编辑模式】的，这个模式下，黑窗口阻塞运行，需要关掉该模式，自行百度即可
+
+```
 
 #### 推送示例
 ```
@@ -47,9 +58,16 @@
 ```
 
 #### 示例代码
-
+- 包含了：
+  - 自动回复文本消息
+  - 接收来自群/好友的图片、视频、文件
+  - 群中被@了回复才对方，并且也@对方
+  - 语音消息转文字
+  - 自动接收好友申请
 ```
+import random
 import re
+import time
 
 import requests
 import xmltodict
@@ -82,6 +100,9 @@ def chat():
     if data["data"]['type'] == 49:
         # XML消息
         handle_xml_msg(data)
+    if data["data"]['type'] == 37:
+        # 收到被添加好友消息
+        handle_add_friend_msg(data)
     return jsonify({"success": "true"})
 
 
@@ -127,7 +148,7 @@ def hadle_text_msg(data):
         # 先获取到自己的微信id
         login_wxid = data['robot']['userName']
         # 如果不是@我的消息，我就不回复了
-        if login_wxid not in data['data']["reversed1"]:
+        if login_wxid not in data['data']["reserved1"]:
             return jsonify({"success": "true"})
         # 调用随机名言API、当然，你可以调用任何你想调用的API，比如ChatGPT
         replayMsg = requests.get("https://api.7585.net.cn/yan/api.php?lx=mj").text
@@ -151,7 +172,7 @@ def hadle_text_msg(data):
 
 def handle_audio_msg(data):
     xmlContent = data['data']['content']
-    # 企业微信
+    # 微信群发言是有前缀的，这里需要去掉
     split = xmlContent.split(":\n")
     xmlContent = len(split) > 1 and split[1] or xmlContent
     content = xmltodict.parse(xmlContent)
@@ -178,36 +199,70 @@ def handle_audio_msg(data):
     pass
 
 
+def handle_add_friend_msg(data):
+    xmlContent = data['data']['content']
+    content = xmltodict.parse(xmlContent)
+    username = content['msg']['@encryptusername']
+    ticket = content['msg']['@ticket']
+    scene = content['msg']['@scene']  #todo  scene参数取值是随便写的已实际的节点为准，这里只是演示下
+    # 同意好友请求，这里只是演示，实际应用中，自己处理
+    # 等待一会儿处理，模拟人工晚发现有人添加好友
+    randomTime = random.randint(10, 30)
+    time.sleep(randomTime)
+    requests.post(
+        WECHAT_API_URL,
+        json={
+            "type": 10035,
+            "encryptUserName": username,
+            "ticket": ticket,
+            "scene":scene
+        })
+    pass
+
+
 def handle_xml_msg(data):
     xmlContent = data['data']['content']
-    # 企业微信
+    # 微信群发言是有前缀的，这里需要去掉
     split = xmlContent.split(":\n")
     xmlContent = len(split) > 1 and split[1] or xmlContent
     content = xmltodict.parse(xmlContent)
     type = content['msg']['appmsg']['type']
-    if type != str(6):
+    if type == str(6):
         # type 6 是文件，可以下载的，其他类型的消息自行处理，这里只处理文件类型
-        return
-    fileName = content['msg']['appmsg']['title']
-    fileId = content['msg']['appmsg']['appattach']['cdnattachurl']
-    aeskey = content['msg']['appmsg']['appattach']['aeskey']
-    # 下载文件
-    requests.post(
-        WECHAT_API_URL,
-        json={
-            "type": 66,
-            "fileid": fileId,
-            "aeskey": aeskey,
-            "fileType": 5,
-            "savePath": f"D:\\aa\\{fileName}"
-        })
+        fileName = content['msg']['appmsg']['title']
+        fileId = content['msg']['appmsg']['appattach']['cdnattachurl']
+        aeskey = content['msg']['appmsg']['appattach']['aeskey']
+        # 下载文件，部分类型的文件可能有多条xml消息回调，注意判别哪些消息是可以处理，哪些是不能处理的
+        requests.post(
+            WECHAT_API_URL,
+            json={
+                "type": 66,
+                "fileid": fileId,
+                "aeskey": aeskey,
+                "fileType": 5,
+                "savePath": f"D:\\aa\\{fileName}"
+            })
+    elif type == str(33):
+        # type 33 是小程序，可以打开的，其他类型的消息自行处理，这里只处理小程序类型
+        appId = content['msg']['appmsg']['weappinfo']['appid']
+        username = content['msg']['appmsg']['weappinfo']['username']
+        pageUrl = content['msg']['appmsg']['weappinfo']['pagepath']
+        # 打开小程序
+        requests.post(
+            WECHAT_API_URL,
+            json={
+                'type': 10106,
+                'appid': appId,
+                'bizUserName': username,
+                'pageUrl': pageUrl
+            })
     print(content)
     pass
 
 
 def handle_image_msg(data):
     xmlContent = data['data']['content']
-    # 企业微信
+    # 微信群发言是有前缀的，这里需要去掉
     split = xmlContent.split(":\n")
     xmlContent = len(split) > 1 and split[1] or xmlContent
     content = xmltodict.parse(xmlContent)
@@ -234,23 +289,12 @@ def addCallBackUrl(callBackUrl):
     :return:
     """
     # 获取所有的回调地址
-    resdatalist = requests.post(WECHAT_API_URL, json={
-        "type": 1003
-    }).json()["data"]["data"]
+    resdatalist = requests.post(WECHAT_API_URL, json={"type": 1003}).json()["data"]["data"]
     # 删除之前的回调地址
     for item in resdatalist:
-        requests.post(WECHAT_API_URL,
-                      json={
-                          "type": 1002,
-                          "cookie": item["cookie"]
-                      })
+        requests.post(WECHAT_API_URL, json={"type": 1002, "cookie": item["cookie"]})
     # 设置新的回调地址
-    requests.post(WECHAT_API_URL,
-                  json={
-                      "type": 1001,
-                      "protocol": 2,
-                      "url": callBackUrl
-                  })
+    requests.post(WECHAT_API_URL, json={"type": 1001, "protocol": 2, "url": callBackUrl})
 
 
 if __name__ == '__main__':

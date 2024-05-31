@@ -15,14 +15,14 @@
 | 参数名       | 必选 | 类型     | 说明             |   
 |:----------|:---|:-------|----------------|   
 | type      | 是  | int    | 接口编号           |   
-| secretKey | 是  | string | 访问秘钥，留空则后续不再验证 |   
+| newSecretKey | 是  | string | 访问秘钥，留空则后续不再验证，<br/>设置后调用其他api需要带上secretKey参数 |   
 
 #### 请求示例
 
 ```
 {
   "type": 1006,
-  "secretKey": "This is a serect key."
+  "newSecretKey": "This is a serect key."
 }
 ```
 
