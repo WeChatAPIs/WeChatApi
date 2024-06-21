@@ -11,7 +11,7 @@
 - **出3.9.5源码（仅供学习使用），欢迎同学联系**
 
 ## 这里有独立开发者开发/贡献的`puppet`脚手架代码项目，希望能对`puppet`有使用经验的人提供帮助
-  - [ts语言](https://github.com/WeChatAPIs/WeChatAPI_puppet)（由独立开发者贡献项目）
+  - [ts语言](https://github.com/yzqzy/wxbot-puppet-bridge)（由独立开发者开源脚手架）
   - [go语言](https://github.com/dchaofei/puppet-win)（由独立开发者开源脚手架）
   - 欢迎大家贡献更多语言的脚手架
 
