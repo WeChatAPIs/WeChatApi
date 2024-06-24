@@ -4,7 +4,7 @@
 # 🚀WeChatApi - 你的微信接口和 Hook 解决方案
 
 - WechatAPI 基于微信 Windows 协议和微信安卓协议开发，为你提供一套强大的微信 API工具。
-- 我们的目标是让你的微信接入更开放，更可定制。[**立即试用**](https://www.wechatsdk.com/docs/readme/立即试用.md)，体验我们的优势。
+- 我们的目标是让你的微信接入更开放，更可定制。[**立即试用**](https://www.wechatsdk.com/zh/docs/readme/立即试用.md)，体验我们的优势。
 - 适合懂任一编程语言的个人开发者使用
 - 适合团队中有技术人员的团队使用
 - 支持 3.9.5、**3.9.10** 版本 (全量API适配，欢迎测试体验)
@@ -24,12 +24,12 @@
   同时会提供内容、频率、行为等方面风控建议文档
   ```
 - **✅[多开微信]()**：```原生支持多开微信```
-- **✅[附近人](https://www.wechatsdk.com/docs/社交/获取附近的人.md)**：```支持添加[附近的人] 添加任意位置的附近人```
-- **✅[语音条](https://www.wechatsdk.com/docs/发送消息/发送语音.md)**：```融合安卓版本[发送语音条]```
-- **✅[视频号](https://www.wechatsdk.com/docs/视频号)**：```融合安卓版本[视频号API] 视频号暴力曝光```
-- **✅[朋友圈](https://www.wechatsdk.com/docs/朋友圈)**：```融合安卓版本[朋友圈API] 朋友圈统计复刻```
-- **✅[直播间](https://www.wechatsdk.com/docs/直播间)**：```融合安卓版本[直播间API] 直播间刷屏爬虫```
-- **✅[公众号API](https://www.wechatsdk.com/docs/公众号)**：```融合安卓版本[公众号API] 公众号文章爬虫，点赞阅读数```
+- **✅[附近人](https://www.wechatsdk.com/zh/docs/社交/获取附近的人.md)**：```支持添加[附近的人] 添加任意位置的附近人```
+- **✅[语音条](https://www.wechatsdk.com/zh/docs/发送消息/发送语音.md)**：```融合安卓版本[发送语音条]```
+- **✅[视频号](https://www.wechatsdk.com/zh/docs/视频号)**：```融合安卓版本[视频号API] 视频号暴力曝光```
+- **✅[朋友圈](https://www.wechatsdk.com/zh/docs/朋友圈)**：```融合安卓版本[朋友圈API] 朋友圈统计复刻```
+- **✅[直播间](https://www.wechatsdk.com/zh/docs/直播间)**：```融合安卓版本[直播间API] 直播间刷屏爬虫```
+- **✅[公众号API](https://www.wechatsdk.com/zh/docs/公众号)**：```融合安卓版本[公众号API] 公众号文章爬虫，点赞阅读数```
 - **✅[查看更多](menu.md)**：[查看更多API](menu.md)
 
 ---
@@ -47,7 +47,7 @@
 ```
 ---
 ## 🚀 免费试用
-- [🚀 **立即试用**](https://www.wechatsdk.com/docs/readme/立即试用.md)，体验我们的优势。
+- [🚀 **立即试用**](https://www.wechatsdk.com/zh/docs/readme/立即试用.md)，体验我们的优势。
 
 ---
 ## 🤝 贡献和反馈
@@ -64,70 +64,90 @@
 ---
 ## 📅 更新历史记录
 ### 2024年
+- **06月24日**：
+  - [群公告](https://www.wechatsdk.com/zh/docs/群管理/设置群公告.md)接口修复bug。
+  - 新增[视频号信息](https://www.wechatsdk.com/zh/docs/个人信息/获取个人视频号信息.md)接口，用于获取自己的视频号注册信息。
+  - 尝试修复当前偶发崩溃问题。
+  - 发布3.9.10版本的[1.0.7.f1]()
+- **06月18日**：
+  - [CDN下载（新）](https://www.wechatsdk.com/zh/docs/CDN/CDN下载(新).md)接口小幅优化，当无法获取到目标dns时会尝试使用旧版dns，待收集更多信息后继续优化。
+  - [搜一搜](https://www.wechatsdk.com/zh/docs/公众号/搜一搜.md)接口现在支持按条件搜索，详情查看目标页面。
+  - [进入直播间](https://www.wechatsdk.com/zh/docs/直播间/进入直播间.md)接口现在需要提供finderUserName参数。
+  - 群聊事件推送优化，现在支持自己进群、退群，或被踢事件的推；现在，群成员进入和退出事件会分开推送，并已设置`subType`参数。
+  - 发布3.9.10版本的[1.0.7]()
+- **06月12日**：
+  - 新增一个[新的CDN下载](https://www.wechatsdk.com/zh/docs/CDN/CDN下载(新).md)接口，用于支持企业微信用户发送的信息，该接口也可用于下载普通用户发送的信息，该接口已支持异步调用；同时，CDN相关的接口添加了可选的`chatType`参数，0表示私聊消息，1表示群聊消息，默认为0。
+  - [视频号作品解密](https://www.wechatsdk.com/zh/docs/视频号/视频号作品解密.md)接口优化，现在`decodeKey`参数支持传递字符串。
+  - [获取朋友圈信息](https://www.wechatsdk.com/zh/docs/朋友圈/获取朋友圈信息.md)接口优化，现在`startObjectId`参数支持传递字符串，看后续反馈是否要对其他接口适用该优化。
+  - 尝试修复一个Bug，该Bug曾导致：短时间内重复[发送链接消息](https://www.wechatsdk.com/zh/docs/发送消息/发送链接.md)可能返回相同的消息id并且对方只接收到一条。
+  - 群聊事件推送已回滚（1.0.5优化的逻辑可能丢失退群事件）此功能最近会尝试继续优化。
+  - 编程化启动需关注：添加了一个实验性质的功能，该功能会在调用`start_http_server`时启动，用于增强防检测，请注意，该功能在启用后会导致卸载sdk时引发微信崩溃，所以务必在尝试卸载前调用`stop_http_server`进行清理。
+  - 编程化启动需关注：如何回调到提供的程序中，可以参考[进程内回调](https://www.wechatsdk.com/zh/docs/处理消息/进程消息处理器.md)中的示例代码。
+  - 发布3.9.10版本的[1.0.6]()
 - **06月06日**：
   - 扩大`http server`的工作线程数量，现在最大支持64个工作线程，此特性在未来可能会继续调整。
-  - 修复了一个Bug，该Bug曾导致：[数据库获取群聊列表](https://www.wechatsdk.com/docs/数据库/获取群聊列表.md)接口获取到的群聊不全，同时更新了[查询数据库](https://www.wechatsdk.com/docs/数据库/查询数据库.md)页面下的部分sql示例。
+  - 修复了一个Bug，该Bug曾导致：[数据库获取群聊列表](https://www.wechatsdk.com/zh/docs/数据库/获取群聊列表.md)接口获取到的群聊不全，同时更新了[查询数据库](https://www.wechatsdk.com/zh/docs/数据库/查询数据库.md)页面下的部分sql示例。
   - 修改了记录日志的参数，现在写入的内容会尽快可见。
-  - 现在，在调用[cdn上传、cdn下载](https://www.wechatsdk.com/docs/CDN)接口时会尝试选择延迟最低的服务器。
-  - [发送消息](https://www.wechatsdk.com/docs/发送消息)和[CDN](https://www.wechatsdk.com/docs/CDN)分类下的接口已支持一个`bAsync`参数，如果将该参数设置为true，则任务不再阻塞，接口响应内容会通过消息处理器返回，消息推送类型为0，同时，如果提供了`asyncUserData`参数（该参数不限定类型），会随调用结果一起推送。
+  - 现在，在调用[cdn上传、cdn下载](https://www.wechatsdk.com/zh/docs/CDN)接口时会尝试选择延迟最低的服务器。
+  - [发送消息](https://www.wechatsdk.com/zh/docs/发送消息)和[CDN](https://www.wechatsdk.com/zh/docs/CDN)分类下的接口已支持一个`bAsync`参数，如果将该参数设置为true，则任务不再阻塞，接口响应内容会通过消息处理器返回，消息推送类型为0，同时，如果提供了`asyncUserData`参数（该参数不限定类型），会随调用结果一起推送。
   - 群聊事件推送进行了小幅度优化，添加了`subType`并将变更的成员和离开群聊的成员分开，此功能最近会尝试继续优化，以便监控自己的退群进群事件。
-  - [cdn上传、cdn下载](https://www.wechatsdk.com/docs/CDN)的可选类型已更新并添加了补充说明。
+  - [cdn上传、cdn下载](https://www.wechatsdk.com/zh/docs/CDN)的可选类型已更新并添加了补充说明。
   - ws服务器重启后前几条消息可能收不到，做了些优化可能会改善，但机制不能保证100%解决，最佳实践应该是避免重启服务器
   - 发布3.9.10版本的[1.0.5]()
 - **05月29日**：
   - 尝试修复一个Bug，该Bug曾导致：个别电脑消息发送量大时出现消息阻塞的情况。（该现象与电脑配置有关）
-  - 优化API:[检测链接是否被封禁](https://www.wechatsdk.com/docs/安全/检测链接是否被封禁.md)。
+  - 优化API:[检测链接是否被封禁](https://www.wechatsdk.com/zh/docs/安全/检测链接是否被封禁.md)。
   - 发布3.9.10版本的[1.0.4.f3]()
 - **05月27日**：
-  - 修复了一个Bug，该Bug曾导致：个别电脑消息量大时出现[发送文本](https://www.wechatsdk.com/docs/发送消息/发送文本.md)消息阻塞的情况。
-  - [下载朋友圈图片](https://www.wechatsdk.com/docs/朋友圈/下载朋友圈图片视频.md)文档整理。
-  - 对于经常碰到的问题的API整理下了文档，关于如何接收消息请参考：[http消息处理器](https://www.wechatsdk.com/docs/处理消息/http处理器.md)下方的代码示例，如果是远程推送则推荐ws协议。
+  - 修复了一个Bug，该Bug曾导致：个别电脑消息量大时出现[发送文本](https://www.wechatsdk.com/zh/docs/发送消息/发送文本.md)消息阻塞的情况。
+  - [下载朋友圈图片](https://www.wechatsdk.com/zh/docs/朋友圈/下载朋友圈图片视频.md)文档整理。
+  - 对于经常碰到的问题的API整理下了文档，关于如何接收消息请参考：[http消息处理器](https://www.wechatsdk.com/zh/docs/处理消息/http处理器.md)下方的代码示例，如果是远程推送则推荐ws协议。
   - 发布3.9.10版本的[1.0.4.f2]()
 - **05月24日**：
-  - 修复了一个Bug，该Bug曾导致：调用[cdn下载](https://www.wechatsdk.com/docs/CDN/CDN下载.md)接口下载图片报错400。
-  - [设置API访问秘钥](https://www.wechatsdk.com/docs/安全/设置API访问秘钥.md)接口所需参数名修改为newSecretKey，现在可以正确的取消访问秘钥。
-  - [视频号作品解密接口](https://www.wechatsdk.com/docs/视频号/视频号作品解密.md)现在可以接受一个64位的decodeKey，可以用于解密朋友圈视频（含缩略图）、图片。
+  - 修复了一个Bug，该Bug曾导致：调用[cdn下载](https://www.wechatsdk.com/zh/docs/CDN/CDN下载.md)接口下载图片报错400。
+  - [设置API访问秘钥](https://www.wechatsdk.com/zh/docs/安全/设置API访问秘钥.md)接口所需参数名修改为newSecretKey，现在可以正确的取消访问秘钥。
+  - [视频号作品解密接口](https://www.wechatsdk.com/zh/docs/视频号/视频号作品解密.md)现在可以接受一个64位的decodeKey，可以用于解密朋友圈视频（含缩略图）、图片。
   - 发布3.9.10版本的[1.0.4.f1]()
 - **05月20日**：
-  - 新增[数据库获取联系人信息](https://www.wechatsdk.com/docs/数据库/获取联系人信息.md)接口，支持传入列表以获取多个联系人信息，同时可以指定群id，此时会尝试匹配成员在群内的信息。
-  - 新增[数据库获取群聊信息](https://www.wechatsdk.com/docs/数据库/获取群聊信息.md)接口。
-  - 新增[数据库获取群聊列表](https://www.wechatsdk.com/docs/数据库/获取群聊列表.md)接口，群很多的话可能会比较慢。
-  - 新增群聊事件推送（新成员进群、退群、群成员修改群内昵称），该功能默认不启动，可以使用[群聊信息变更通知接口](https://www.wechatsdk.com/docs/群管理/开启-关闭群聊信息变更通知.md)进行开关。
+  - 新增[数据库获取联系人信息](https://www.wechatsdk.com/zh/docs/数据库/获取联系人信息.md)接口，支持传入列表以获取多个联系人信息，同时可以指定群id，此时会尝试匹配成员在群内的信息。
+  - 新增[数据库获取群聊信息](https://www.wechatsdk.com/zh/docs/数据库/获取群聊信息.md)接口。
+  - 新增[数据库获取群聊列表](https://www.wechatsdk.com/zh/docs/数据库/获取群聊列表.md)接口，群很多的话可能会比较慢。
+  - 新增群聊事件推送（新成员进群、退群、群成员修改群内昵称），该功能默认不启动，可以使用[群聊信息变更通知接口](https://www.wechatsdk.com/zh/docs/群管理/开启-关闭群聊信息变更通知.md)进行开关。
   - 收到群消息时，现在会尝试匹配群成员的群内昵称一起推送。
-  - 获取[群成员详细信息](https://www.wechatsdk.com/docs/群管理/获取群成员详细信息.md)接口，新增version参数，默认为0（获取所有信息），可以通过数据库获取群聊信息接口获取本地version。
-  - [转换wxgf文件接口](https://www.wechatsdk.com/docs/表情包/转换wxgf文件.md)优化，现在会按照jpg->png->gif的顺序尝试解码，此项更改已同步应用到cdn下载中。
+  - 获取[群成员详细信息](https://www.wechatsdk.com/zh/docs/群管理/获取群成员详细信息.md)接口，新增version参数，默认为0（获取所有信息），可以通过数据库获取群聊信息接口获取本地version。
+  - [转换wxgf文件接口](https://www.wechatsdk.com/zh/docs/表情包/转换wxgf文件.md)优化，现在会按照jpg->png->gif的顺序尝试解码，此项更改已同步应用到cdn下载中。
   - 发布3.9.10版本的[1.0.4]()
 - **05月16日**：
-  - 整理API文档目录，新增[安全](https://www.wechatsdk.com/docs/安全)目录
+  - 整理API文档目录，新增[安全](https://www.wechatsdk.com/zh/docs/安全)目录
   - 解决已知机型启动微信失败问题
   - 发布3.9.10版本的[1.0.3]()
 - **05月13日**：
   - 登录过程中推送二维码事件（扫描、确认、取消、过期），如有验证码，会在扫描事件中推送。
   - 修复Bug：启用防撤回会导致下载文件不会正常结束并且自己也无法撤回消息。
-  - [设置API访问密钥](https://www.wechatsdk.com/docs/其他功能/设置API访问秘钥.md)修改参数
+  - [设置API访问密钥](https://www.wechatsdk.com/zh/docs/其他功能/设置API访问秘钥.md)修改参数
   - 解决登录过程中可能出现的崩溃问题。
   - 支持win11、arm等系统
-  - 新增[发送企业用户名片](https://www.wechatsdk.com/docs/发送消息/发送企业用户名片.md)接口
+  - 新增[发送企业用户名片](https://www.wechatsdk.com/zh/docs/发送消息/发送企业用户名片.md)接口
   - 发布3.9.10版本的[1.0.2]()
 - **05月07日**：
   - 全面支持3.9.10版本，全量API兼容，公测中
   - 支持win11、arm等系统
   - 发布3.9.10版本的[1.0.1]()
 - **04月29日**：
-  - 增加[发送公众号名片](https://www.wechatsdk.com/docs/发送消息/发送公众号名片.md)
-  - 增加[发送视频号名片](https://www.wechatsdk.com/docs/发送消息/发送视频号名片.md)
-  - 增加[发送视频号消息](https://www.wechatsdk.com/docs/发送消息/发送视频号消息.md)
-  - 增加[打语音](https://www.wechatsdk.com/docs/发送消息/音视频聊天(发起).md)，只能用作提醒，对方接听后会自动挂断
-  - 增加[打视频](https://www.wechatsdk.com/docs/发送消息/音视频聊天(挂断).md)，只能用作提醒，对方接听后会自动挂断
-  - 增加[TCP服务器](https://www.wechatsdk.com/docs/处理消息/TCP处理器.md)
-  - 增加[消息变已读](https://www.wechatsdk.com/docs/处理消息/消息设置为已读.md)
-  - 增加[消息变未读](https://www.wechatsdk.com/docs/处理消息/消息设置为未读.md)
-  - 增加[打开小程序](https://www.wechatsdk.com/docs/小程序/打开小程序.md)
-  - 增加[打开浏览器](https://www.wechatsdk.com/docs/其他功能/打开浏览器.md)
-  - 增加[获取H5Key](https://www.wechatsdk.com/docs/公众号/获取H5Key.md)
-  - 增加[获得热点视频](https://www.wechatsdk.com/docs/视频号/获取热点视频.md)
-  - 增加[设置API访问密钥](https://www.wechatsdk.com/docs/其他功能/设置API访问秘钥.md)
-  - 增加[转化wxgf文件](https://www.wechatsdk.com/docs/表情包/转换wxgf文件.md)
+  - 增加[发送公众号名片](https://www.wechatsdk.com/zh/docs/发送消息/发送公众号名片.md)
+  - 增加[发送视频号名片](https://www.wechatsdk.com/zh/docs/发送消息/发送视频号名片.md)
+  - 增加[发送视频号消息](https://www.wechatsdk.com/zh/docs/发送消息/发送视频号消息.md)
+  - 增加[打语音](https://www.wechatsdk.com/zh/docs/发送消息/音视频聊天(发起).md)，只能用作提醒，对方接听后会自动挂断
+  - 增加[打视频](https://www.wechatsdk.com/zh/docs/发送消息/音视频聊天(挂断).md)，只能用作提醒，对方接听后会自动挂断
+  - 增加[TCP服务器](https://www.wechatsdk.com/zh/docs/处理消息/TCP处理器.md)
+  - 增加[消息变已读](https://www.wechatsdk.com/zh/docs/处理消息/消息设置为已读.md)
+  - 增加[消息变未读](https://www.wechatsdk.com/zh/docs/处理消息/消息设置为未读.md)
+  - 增加[打开小程序](https://www.wechatsdk.com/zh/docs/小程序/打开小程序.md)
+  - 增加[打开浏览器](https://www.wechatsdk.com/zh/docs/其他功能/打开浏览器.md)
+  - 增加[获取H5Key](https://www.wechatsdk.com/zh/docs/公众号/获取H5Key.md)
+  - 增加[获得热点视频](https://www.wechatsdk.com/zh/docs/视频号/获取热点视频.md)
+  - 增加[设置API访问密钥](https://www.wechatsdk.com/zh/docs/其他功能/设置API访问秘钥.md)
+  - 增加[转化wxgf文件](https://www.wechatsdk.com/zh/docs/表情包/转换wxgf文件.md)
   - 增加新的启动方式，不再依赖启动器了
   - 修复bug：登录失败时会导致微信退出
   - 发布新版本[1.1.10]()
@@ -149,51 +169,51 @@
   - 发布了版本[1.1.6]()
 - **03月25日**：
   - 对WechatAPI的文档结构进行了调整
-  - [查找附近的人](https://www.wechatsdk.com/docs/社交/获取附近的人.md)现在可以使用经纬度来查询附近的人
-  - 现在支持[添加附近的人](https://www.wechatsdk.com/docs/通讯录/添加好友.md)
-  - 现在支持获取[公众号历史推送文章](https://www.wechatsdk.com/docs/公众号/获取历史推送消息.md)
-  - 现在支持[收款码收款提醒](https://www.wechatsdk.com/docs/处理消息/http处理器.md)
+  - [查找附近的人](https://www.wechatsdk.com/zh/docs/社交/获取附近的人.md)现在可以使用经纬度来查询附近的人
+  - 现在支持[添加附近的人](https://www.wechatsdk.com/zh/docs/通讯录/添加好友.md)
+  - 现在支持获取[公众号历史推送文章](https://www.wechatsdk.com/zh/docs/公众号/获取历史推送消息.md)
+  - 现在支持[收款码收款提醒](https://www.wechatsdk.com/zh/docs/处理消息/http处理器.md)
   - 发布了版本[wechatAPI_1.1.5]()
 - **03月19日**：
   - 对API文档进行了更新
   - 修复了部分API接口对企业微信好友不友好的问题
-  - 新增了API：[企业好友信息](https://www.wechatsdk.com/docs/通讯录/获取企业用户信息.md)
+  - 新增了API：[企业好友信息](https://www.wechatsdk.com/zh/docs/通讯录/获取企业用户信息.md)
   - 发布了版本[wechatAPI_1.1.4]()
 - **03月13日**：
   - 更新了使用手册
   - 修复了部分API接口偶尔不能使用的问题
-  - 发布了朋友圈API并增加了防识别扰乱参数：[发布朋友圈](https://www.wechatsdk.com/docs/朋友圈/发布朋友圈.md)，请谨慎使用，部分账号可能会触发风控
+  - 发布了朋友圈API并增加了防识别扰乱参数：[发布朋友圈](https://www.wechatsdk.com/zh/docs/朋友圈/发布朋友圈.md)，请谨慎使用，部分账号可能会触发风控
   - 发布了版本[wechatAPI_1.1.3.f2]()，增强了防封策略，加入了主动扰乱识别机制。
 - **03月06日**：
   - 更新了使用手册
-  - 更新了文档，增加了更多示例：[获取所有好友列表](https://www.wechatsdk.com/docs/通讯录/获取所有好友列表.md)
-  - 新增了API：[获取企业用户信息](https://www.wechatsdk.com/docs/通讯录/获取企业用户信息.md)
-  - 新增了API：[获取群列表](https://www.wechatsdk.com/docs/群管理/获取所有群列表.md)
-  - 新增了文档：[微信数据库简述](https://www.wechatsdk.com/docs/数据库/微信数据库简述.md)
+  - 更新了文档，增加了更多示例：[获取所有好友列表](https://www.wechatsdk.com/zh/docs/通讯录/获取所有好友列表.md)
+  - 新增了API：[获取企业用户信息](https://www.wechatsdk.com/zh/docs/通讯录/获取企业用户信息.md)
+  - 新增了API：[获取群列表](https://www.wechatsdk.com/zh/docs/群管理/获取所有群列表.md)
+  - 新增了文档：[微信数据库简述](https://www.wechatsdk.com/zh/docs/数据库/微信数据库简述.md)
   - 发布了版本:[wechatAPI_1.1.3]()，优化了防封机制，增加了避免被识别的机制。
 - **02月21日**：
   - 更新了使用手册
   - 不再支持ARM系统（如打开启动器后乱码，则表示不支持）
-  - 新增了[获取所有好友列表](https://www.wechatsdk.com/docs/通讯录/获取所有好友列表.md)
+  - 新增了[获取所有好友列表](https://www.wechatsdk.com/zh/docs/通讯录/获取所有好友列表.md)
 - **02月18日**：
   - 开工大吉！
   - 发布了修复版:[1.1.2.f1]()，解决了启动器由于电脑因弱网环境崩溃问题，增加了已知避免被识别的机制。
-  - 修复了[微信防撤回通知](https://www.wechatsdk.com/docs/其他功能/开启关闭防撤回.md)接口偶尔不能使用的问题。
-  - 新增了[删除单个消息回调处理器](https://www.wechatsdk.com/docs/处理消息/移除处理器.md)接口
+  - 修复了[微信防撤回通知](https://www.wechatsdk.com/zh/docs/其他功能/开启关闭防撤回.md)接口偶尔不能使用的问题。
+  - 新增了[删除单个消息回调处理器](https://www.wechatsdk.com/zh/docs/处理消息/移除处理器.md)接口
 - **02月04日**：
-  - 修复了[添加群成员到通讯录](https://www.wechatsdk.com/docs/群管理/添加群成员到通讯录.md)接口偶尔出现的异常
-  - 更新了[发送语音条](https://www.wechatsdk.com/docs/发送消息/发送语音.md)接口文档，功能没有变更
+  - 修复了[添加群成员到通讯录](https://www.wechatsdk.com/zh/docs/群管理/添加群成员到通讯录.md)接口偶尔出现的异常
+  - 更新了[发送语音条](https://www.wechatsdk.com/zh/docs/发送消息/发送语音.md)接口文档，功能没有变更
   - 年前最后一次更新，祝大家新年快乐
 - **01月31日**：
-  - 新增了[转发图片.md](https://www.wechatsdk.com/docs/发送消息/转发图片.md)接口。
-  - 新增了[转发文件.md](https://www.wechatsdk.com/docs/发送消息/转发文件.md)接口。
-  - 新增了[转发视频.md](https://www.wechatsdk.com/docs/发送消息/转发视频.md)接口。
-  - 新增了[转发语音.md](https://www.wechatsdk.com/docs/发送消息/转发语音.md)接口。
+  - 新增了[转发图片.md](https://www.wechatsdk.com/zh/docs/发送消息/转发图片.md)接口。
+  - 新增了[转发文件.md](https://www.wechatsdk.com/zh/docs/发送消息/转发文件.md)接口。
+  - 新增了[转发视频.md](https://www.wechatsdk.com/zh/docs/发送消息/转发视频.md)接口。
+  - 新增了[转发语音.md](https://www.wechatsdk.com/zh/docs/发送消息/转发语音.md)接口。
   - 通过好友申请接口新增了scene字段，可以从消息xml中获取。
   - 发布了版本:1.1.2
 - **01月24日**：
-  - 添加了[开启/关闭防撤回](https://www.wechatsdk.com/docs/其他功能/开启关闭防撤回.md)接口。监听到撤回消息时，会将原消息内容一起推送
-  - 新增了[文本翻译](https://www.wechatsdk.com/docs/其他功能/文本翻译.md)接口。
+  - 添加了[开启/关闭防撤回](https://www.wechatsdk.com/zh/docs/其他功能/开启关闭防撤回.md)接口。监听到撤回消息时，会将原消息内容一起推送
+  - 新增了[文本翻译](https://www.wechatsdk.com/zh/docs/其他功能/文本翻译.md)接口。
 - **1月03日**：
   - 准备发朋友圈接口xml示例 xml详见：[点击查看](https://github.com/WeChatApis/wechatSDK)
   - 准备发送小程序xml示例
@@ -202,18 +222,18 @@
 
 - **12月23日**：
   - 后续不再持续支持3.9.2.*版本的新api。现有api将持续支持，有bug会修复。
-  - 修复了[视频号作品解密](https://www.wechatsdk.com/docs/视频号/视频号作品解密.md)
-  - 新增了[发送视频.md](https://www.wechatsdk.com/docs/发送消息/发送视频.md)
-  - 新增了[发送链接.md](https://www.wechatsdk.com/docs/发送消息/发送链接.md)
+  - 修复了[视频号作品解密](https://www.wechatsdk.com/zh/docs/视频号/视频号作品解密.md)
+  - 新增了[发送视频.md](https://www.wechatsdk.com/zh/docs/发送消息/发送视频.md)
+  - 新增了[发送链接.md](https://www.wechatsdk.com/zh/docs/发送消息/发送链接.md)
 - **11月24日**：
-  - [获取用户信息](https://www.wechatsdk.com/docs/通讯录/获取用户信息.md)接口新增了字段，支持通过群聊获取用户信息。
-  - 新增了[添加群成员到通讯录](https://www.wechatsdk.com/docs/群管理/添加群成员到通讯录.md)接口。
-  - 新增了[WebSocket处理器](https://www.wechatsdk.com/docs/处理消息/WebSocket处理器.md)
-  - 新增了[获取消息处理器列表](https://www.wechatsdk.com/docs/处理消息/获取消息处理器列表.md)接口。
-  - 新增了[退出登录](https://www.wechatsdk.com/docs/登录相关/退出登录.md)接口。
+  - [获取用户信息](https://www.wechatsdk.com/zh/docs/通讯录/获取用户信息.md)接口新增了字段，支持通过群聊获取用户信息。
+  - 新增了[添加群成员到通讯录](https://www.wechatsdk.com/zh/docs/群管理/添加群成员到通讯录.md)接口。
+  - 新增了[WebSocket处理器](https://www.wechatsdk.com/zh/docs/处理消息/WebSocket处理器.md)
+  - 新增了[获取消息处理器列表](https://www.wechatsdk.com/zh/docs/处理消息/获取消息处理器列表.md)接口。
+  - 新增了[退出登录](https://www.wechatsdk.com/zh/docs/登录相关/退出登录.md)接口。
   - 消息推送与主动调用格式进行了优化。
   - 修复了多线程调用时的Bug。
-  - 对[获取个人信息](https://www.wechatsdk.com/docs/个人信息/获取个人信息.md)接口进行了优化。
+  - 对[获取个人信息](https://www.wechatsdk.com/zh/docs/个人信息/获取个人信息.md)接口进行了优化。
 - **11月11日**：
   - 优化了退出事件监听。
   - 优化了消息推送。
