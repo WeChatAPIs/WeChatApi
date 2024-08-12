@@ -64,6 +64,35 @@
 ---
 ## 📅 更新历史记录
 ### 2024年
+- **08月12日**：
+  - 新增API以支持获取公众号文章的点赞、阅读数，以及评论信息，具体可查看[公众号](https://www.wechatsdk.com/zh/docs/公众号)相关类目
+  - 新增API能力：包括[公众号-获取详情链接]()
+  - 新增API能力：包括[公众号-获取文章详情]()
+  - 新增API能力：包括[公众号-获取评论信息]()
+  - 新增API能力：包括[公众号-获取指定评论回复]()
+  - 本次更新API文档不会新增相关文档，如有这方面需求请联系商务获取
+  - 发布3.9.10版本的[1.1.3]()
+- **08月05日**：
+  - 发布一系列收藏相关功能，具体可以查看新增的[收藏夹](https://www.wechatsdk.com/zh/docs/收藏夹)分类。
+  - 尝试修复一个Bug，该Bug曾导致：在拉朋友加入群聊后，微信可能闪退。
+  - 修复了一个Bug，该Bug曾导致：[获取用户朋友圈信息](https://www.wechatsdk.com/zh/docs/朋友圈/获取朋友圈信息.md)接口，当朋友设置了可见范围，状态码返回`207`且无数据。
+  - [获取作品详情](https://www.wechatsdk.com/zh/docs/视频号/获取作品详情.md)接口优化，现在支持使用`exportId`来获取视频号作品的详细信息。
+  - 发布3.9.10版本的[1.1.2]()
+- **07月21日**：
+  - [cdn上传](https://www.wechatsdk.com/zh/docs/CDN/CDN上传.md)接口优化，如果将fileType设置为3，将会使用未压缩的图片作为`thumbnail`，此改动用于支持发送小程序消息时携带的图片。
+  - [cdn上传](https://www.wechatsdk.com/zh/docs/CDN/CDN上传.md)接口优化，如果fileType设置为7，将会适用不同的逻辑以提高上传速度。
+  - [发送文件](https://www.wechatsdk.com/zh/docs/发送消息/发送文件.md)接口优化，根据文件大小适用不同的逻辑，目前的临界点为25M。
+  - [转发文件](https://www.wechatsdk.com/zh/docs/发送消息/转发文件.md)接口优化，现在提供一个可选参数`fileType`，如果将该字段设置为7，则适用大文件发送逻辑。该字段默认值为5。
+  - [cdn下载(旧)](https://www.wechatsdk.com/zh/docs/CDN/CDN下载.md)接口优化，如果`fileType`字段为7，将适用不同的逻辑以提高下载速度。注：实测[cdn下载(新)](https://www.wechatsdk.com/zh/docs/CDN/CDN下载(新).md)接口的下载的速度更快。
+  - 尝试修复一个Bug，该Bug曾导致：调用[cdn下载(新)](https://www.wechatsdk.com/zh/docs/CDN/CDN下载(新).md)接口时无法获取到cdn节点，导致下载失败。
+  - [发布朋友圈](https://www.wechatsdk.com/zh/docs/朋友圈/发布朋友圈.md)接口优化，现在可以传递一个`protocolVersion`字段，以使用之前的协议版本进行发送或转发，此改动用于解决部分朋友圈在转发后视频不可播放问题。
+  - 发布3.9.10版本的[1.1.1]()
+- **07月15日**：
+  - 修复了一个Bug，该Bug曾导致，某些号调用[添加群成员](https://www.wechatsdk.com/zh/docs/群管理/添加群成员.md)、[删除群成员](https://www.wechatsdk.com/zh/docs/群管理/删除群成员.md)接口时，如果提供了多个好友id，只有第一个会生效问题。
+  - 修复了一个Bug，该Bug曾导致，[发送视频号消息](https://www.wechatsdk.com/zh/docs/发送消息/发送视频号消息.md)时可能出现崩溃。
+  - [搜一搜](https://www.wechatsdk.com/zh/docs/公众号/搜一搜.md)接口优化，现在可以传递一个`cookies`字段，该字段可以从前一次调用的返回信息中获取，用于解决`搜索视频号->最新`时设置的Offset无效问题。
+  - [cdn上传](https://www.wechatsdk.com/zh/docs/CDN/CDN上传.md)接口优化，解决部分视频文件无法创建缩略图导致返回的id用于发送消息时不成功。
+  - 发布3.9.10版本的[1.1.0]()
 - **07月01日**：
   - http消息推送底层框架优化，在收到消息后，请返回状态码200提示接收消息成功，如果消息推送失败或状态码异常，则会记录到日志文件。
   - `msgSvrID`字段推送优化，为不懂得如何处理大数字失真的开发者提供解决方案。
