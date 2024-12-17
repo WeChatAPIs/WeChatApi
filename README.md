@@ -1,4 +1,3 @@
-### 🌍 *[English](README-en.md) ∙ [简体中文](README.md)*
 
 
 # 🚀WeChatApi - 你的微信接口和 Hook 解决方案
